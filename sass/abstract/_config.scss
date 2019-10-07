@@ -1,0 +1,72 @@
+// Constants
+$BASE_URL: '/wp-content/themes/karlablanco';
+
+// Theme Colors
+$primary-color:      #f6eeec;
+$secondary-color:    #b9a89e;
+$purple-color:       #401b60;    
+$black-color:        black;
+$white-color:        white;
+
+// Theme Font
+@font-face {
+    font-family: 'Northwell';
+    src: url('#{$BASE_URL}/fonts/NorthwellAlt.woff2') format('woff2'),
+        url('#{$BASE_URL}/fonts/NorthwellAlt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'American Typewriter';
+//     src: url('#{$BASE_URL}/fonts/AmericanTypewriter.woff2') format('woff2'),
+//         url('#{$BASE_URL}/fonts/AmericanTypewriter.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+$brand-primary-font:    'Northwell';
+$brand-secondary-font:  'Open Sans', sans-serif;
+
+// Breakpoints
+$m:     1070px;
+$sm:    900px;
+$xs:    425px;
+
+// Dynamic Classes
+.drop-shadow {
+    box-shadow: 0 0 8px rgba(0, 0,  0, .25);
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+    background-color: $primary-color;
+}
+
+// Typos
+
+:root {
+    font-size: 16px;
+}
+h1,h2,h3 {
+    font-family: $brand-primary-font;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 3.35rem;
+}
+
+p, li, a, em {
+    font-family: $brand-secondary-font;
+    line-height: 1;
+    font-weight: 500;
+}
+
+p {
+    line-height: 2;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+

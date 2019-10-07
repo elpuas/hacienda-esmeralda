@@ -1,0 +1,228 @@
+.mobile_nav.opened .mobile_menu_bar:before{content:'\4d'}
+@font-face{font-family:'Northwell';src:url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff2") format("woff2"),url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff") format("woff");font-weight:bold;font-style:normal}
+.drop-shadow{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.25);box-shadow:0 0 8px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);background-color:#f6eeec}
+:root{font-size:16px}
+h1,h2,h3{font-family:"Northwell";line-height:1}
+h2{font-size:3.35rem}
+p,li,a,em{font-family:"Open Sans",sans-serif;line-height:1;font-weight:500}
+p{line-height:2}
+code{font-family:'Courier New',Courier,monospace}
+.page #main-content .container:before,.single-product #main-content .container:before,.single-post #main-content .container:before,.error404 #main-content .container:before{background:0}
+.page #sidebar,.single-product #sidebar,.single-post #sidebar,.error404 #sidebar{display:none}
+header li{text-transform:uppercase}
+header li.kb-special-menu-item{border:solid 1px white;border-radius:3px;padding:5px 10px 5px 10px !important}
+header li.kb-special-menu-item a{padding:0 !important}
+header li .sub-menu li a{color:black}
+header a.et-cart-info{color:white;padding-top:7.5px}
+header .mobile_nav{color:white;margin-top:5px}
+header .mobile_nav.kb-over .mobile_menu_bar:before{color:black}
+header .mobile_nav .mobile_menu_bar:before{color:white}
+header .kb-over span{color:black}
+footer ul.bottom-nav{text-align:center}
+footer ul.bottom-nav li a{color:#b9a89e}
+footer ul.bottom-nav li.current_page_item a{color:#b9a89e;text-decoration:underline}
+footer ul.et-social-icons li{display:inline-block;margin-left:20px;background:#b9a89e;padding:8px;border-radius:50%}
+footer ul.et-social-icons li a{color:white}
+.home #page-container{padding-top:0 !important}
+.home #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.home #page-container h2{text-align:center;font-size:3.35rem}
+.home #page-container .kb-home-hero{background-position:0 0;min-height:100vh}
+.home #page-container .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.home #page-container .kb-home-hero .et_pb_text_inner{width:50%}
+.home #page-container .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.home #page-container .kb-home-cta--newsletter .et_pb_contact_field_half{width:44%}
+.home #page-container .kb-home-cta--newsletter .et_pb_contact_field_half input{background-color:transparent;border:1px solid black}
+.home #page-container .kb-home-cta--newsletter .et_contact_bottom_container{margin-top:0}
+.home #page-container .kb-home-cta--newsletter .et_contact_bottom_container button{background-color:#401b60;color:white;padding:.4em 1em}
+.home #page-container .kb-home-grid{background-color:#f6eeec}
+.home #page-container .kb-home-grid .kb-home-grid--item{position:relative}
+.home #page-container .kb-home-grid .kb-home-grid--item:before{position:absolute;z-index:9;width:100%;text-align:center;top:50%;background-color:#ffffff78;display:block;height:45px;line-height:3;text-transform:uppercase}
+.home #page-container .kb-home-testimonials .et_pb_slides .et_pb_slide .et_pb_slide_description{padding:0}
+.home #page-container .kb-home-testimonials .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.home #page-container .kb-home-testimonials .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content p{color:black;text-shadow:none;text-shadow:none;line-height:2;padding:1rem;text-align:left}
+.home #page-container .kb-home-testimonials .et-pb-controllers a{border:solid 1px rgba(0,0,0,0.5)}
+.home #page-container .kb-home-testimonials .et-pb-controllers a.et-pb-active-control{background-color:rgba(0,0,0,0.5)}
+.home #page-container .kb-home-blog{background-color:#f6eeec}
+.home #page-container .kb-home-blog>div>div>div>div>p{text-align:center}
+.home #page-container .kb-home-blog .et_pb_blog_0>div{display:-webkit-box;display:-ms-flexbox;display:flex}
+.home #page-container .kb-home-blog .et_pb_blog_0>div article{padding:0 1rem}
+.home #page-container .kb-home-blog .et_pb_blog_0>div article h2{font-size:2rem}
+.home #page-container .kb-home-blog .et_pb_blog_0>div article p{line-height:1.5}
+.page-about #page-container{padding-top:0 !important}
+.page-about #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-about #page-container h2{text-align:center;font-size:3.35rem}
+.page-about #page-container p{line-height:2}
+.page-about #page-container .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-about #page-container .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-about #page-container .kb-home-hero .et_pb_text_inner{width:50%}
+.page-about #page-container .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-about #page-container .kb-home-grid{background-color:#f6eeec}
+.page-about #page-container .kb-home-grid>*{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.page-about #page-container .kb-home-grid .kb-home-grid--item{position:relative}
+.page-about #page-container .kb-home-grid .kb-home-grid--item:before{position:absolute;z-index:9;width:100%;text-align:center;top:50%;background-color:#ffffff78;display:block;height:45px;line-height:3;text-transform:uppercase}
+.page-about #page-container .kb-home-grid .kb-home-grid--item h2{text-align:left}
+.page-about #page-container .kb-about-excerpt p{max-width:50vw;margin:0 auto;text-align:center}
+.page-contact #page-container{padding-top:0 !important}
+.page-contact #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-contact #page-container h2{text-align:center;font-size:3.35rem}
+.page-contact #page-container p{line-height:2}
+.page-contact #page-container .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-contact #page-container .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-contact #page-container .kb-home-hero .et_pb_text_inner{width:50%}
+.page-contact #page-container .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-contact #page-container .kb-contact-form--wrapper .et_pb_contact_field_half{width:50%}
+.page-contact #page-container .kb-contact-form--wrapper .et_pb_contact_field_half input{background-color:transparent;border:1px solid black}
+.page-contact #page-container .kb-contact-form--wrapper .et_contact_bottom_container{margin-top:0}
+.page-contact #page-container .kb-contact-form--wrapper .et_contact_bottom_container button{background-color:#401b60;color:white;padding:.4em 1em}
+.page-contact #page-container .kb-contact-form--wrapper .et_pb_contact_message{background-color:transparent;border:1px solid black;margin:0;width:100%}
+.page-contact #page-container .kb-contact-form--wrapper .et_contact_bottom_container{padding:0 0 0 3%;width:100%}
+.page-contact #page-container .kb-contact-form--wrapper .et_contact_bottom_container .et_pb_contact_submit{margin:0;width:100%}
+.page-book #page-container{padding-top:0 !important}
+.page-book #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-book .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-book .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-book .kb-home-hero .et_pb_text_inner{width:50%}
+.page-book .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-book .kb-book-excerpt{background-color:#f6eeec}
+.page-book .kb-book-excerpt>div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.page-book .kb-book-excerpt>div p{color:black;text-shadow:none;text-shadow:none;padding:1rem 0;text-align:left}
+.page-book .kb-book-middle-text .et_pb_text_align_left{text-align:center}
+.page-book .kb-book-slider{background-color:#f6eeec}
+.page-book .kb-book-slider h2{text-align:center}
+.page-book .kb-book-slider .et_pb_slides .et_pb_slide .et_pb_slide_description{padding:0}
+.page-book .kb-book-slider .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.page-book .kb-book-slider .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content p{color:black;text-shadow:none;text-shadow:none;line-height:2;padding:1rem;text-align:left}
+.page-book .kb-book-slider .et-pb-controllers a{border:solid 1px rgba(0,0,0,0.5)}
+.page-book .kb-book-slider .et-pb-controllers a.et-pb-active-control{background-color:rgba(0,0,0,0.5)}
+.page-book .kb-book-to-shop>div>div>div{text-align:center}
+.page-book .kb-book-to-shop>div>div>div img{max-width:50%}
+.page-book .kb-book-to-shop .kb-book-vendors{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:50%}
+.page-historias-de-exito #page-container{padding-top:0 !important}
+.page-historias-de-exito #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-historias-de-exito #page-container h2{text-align:center;font-size:3.35rem}
+.page-historias-de-exito #page-container p{line-height:2}
+.page-historias-de-exito #page-container .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-historias-de-exito #page-container .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-historias-de-exito #page-container .kb-home-hero .et_pb_text_inner{width:50%}
+.page-historias-de-exito #page-container .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-historias-de-exito #page-container .kb-home-grid{background-color:#f6eeec}
+.page-historias-de-exito #page-container .kb-home-grid>*{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.page-historias-de-exito #page-container .kb-home-grid .kb-home-grid--item{position:relative}
+.page-historias-de-exito #page-container .kb-home-grid .kb-home-grid--item:before{position:absolute;z-index:9;width:100%;text-align:center;top:50%;background-color:#ffffff78;display:block;height:45px;line-height:3;text-transform:uppercase}
+.page-historias-de-exito #page-container .kb-home-grid .kb-home-grid--item h2{text-align:left}
+.page-historias-de-exito #page-container .kb-home-cta--newsletter .et_pb_contact_field_half{width:44%}
+.page-historias-de-exito #page-container .kb-home-cta--newsletter .et_pb_contact_field_half input{background-color:transparent;border:1px solid black}
+.page-historias-de-exito #page-container .kb-home-cta--newsletter .et_contact_bottom_container{margin-top:0}
+.page-historias-de-exito #page-container .kb-home-cta--newsletter .et_contact_bottom_container button{background-color:#401b60;color:white;padding:.4em 1em}
+.page-historias-de-exito #page-container .kb-about-excerpt p{max-width:50vw;margin:0 auto;text-align:center}
+.error404 #page-container{padding-top:0 !important}
+.error404 #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.error404 #page-container .kb-background-image{background-image:url("/wp-content/uploads/2019/08/article-4.jpg");height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.error404 #page-container .kb-background-image p{color:white;text-align:center}
+.error404 #page-container .kb-background-image p a{color:#b9a89e}
+.page-blog #page-container,.page-masterminds #page-container,.page-coaching #page-container,.page-charlas-y-webinars #page-container,.page-la-experiencia-del-mastermind #page-container{padding-top:0 !important}
+.page-blog #page-container header,.page-masterminds #page-container header,.page-coaching #page-container header,.page-charlas-y-webinars #page-container header,.page-la-experiencia-del-mastermind #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-blog #page-container h2,.page-masterminds #page-container h2,.page-coaching #page-container h2,.page-charlas-y-webinars #page-container h2,.page-la-experiencia-del-mastermind #page-container h2{text-align:center;font-size:3.35rem}
+.page-blog #page-container .kb-home-hero,.page-masterminds #page-container .kb-home-hero,.page-coaching #page-container .kb-home-hero,.page-charlas-y-webinars #page-container .kb-home-hero,.page-la-experiencia-del-mastermind #page-container .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-blog #page-container .kb-home-hero>div,.page-masterminds #page-container .kb-home-hero>div,.page-coaching #page-container .kb-home-hero>div,.page-charlas-y-webinars #page-container .kb-home-hero>div,.page-la-experiencia-del-mastermind #page-container .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-blog #page-container .kb-home-hero .et_pb_text_inner,.page-masterminds #page-container .kb-home-hero .et_pb_text_inner,.page-coaching #page-container .kb-home-hero .et_pb_text_inner,.page-charlas-y-webinars #page-container .kb-home-hero .et_pb_text_inner,.page-la-experiencia-del-mastermind #page-container .kb-home-hero .et_pb_text_inner{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%}
+.page-blog #page-container .kb-home-hero .et_pb_text_inner h2,.page-masterminds #page-container .kb-home-hero .et_pb_text_inner h2,.page-coaching #page-container .kb-home-hero .et_pb_text_inner h2,.page-charlas-y-webinars #page-container .kb-home-hero .et_pb_text_inner h2,.page-la-experiencia-del-mastermind #page-container .kb-home-hero .et_pb_text_inner h2{color:white;font-size:10rem;line-height:1.25;margin:auto}
+.page-blog #page-container .kb-home-blog>div>div>div>div>p,.page-masterminds #page-container .kb-home-blog>div>div>div>div>p,.page-coaching #page-container .kb-home-blog>div>div>div>div>p,.page-charlas-y-webinars #page-container .kb-home-blog>div>div>div>div>p,.page-la-experiencia-del-mastermind #page-container .kb-home-blog>div>div>div>div>p{text-align:center}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article{width:50%;padding:0 1rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article>*,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article>*,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article>*,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article>*,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article>*{width:100%}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article a,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article a,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article a,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article a,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article a{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin-bottom:2px}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article h2,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article h2,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article h2,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article h2,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article h2{font-size:1.5rem;text-align:left;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article p,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article p,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article p,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article p,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article p{line-height:1.5}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;color:transparent;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta>*,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta>*,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta>*,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta>*,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta>*{color:#b9a89e}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta a,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta a,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta a,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta a,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta a{background-color:#401b60;color:white;padding:3px 5px}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article .post-content,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article .post-content,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article .post-content,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article .post-content,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article .post-content{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}
+.page-blog .kb-masterminds-module p.post-meta a,.page-masterminds .kb-masterminds-module p.post-meta a,.page-coaching .kb-masterminds-module p.post-meta a,.page-charlas-y-webinars .kb-masterminds-module p.post-meta a,.page-la-experiencia-del-mastermind .kb-masterminds-module p.post-meta a{background-color:orangered !important}
+.page-blog .kb-coaching-module p.post-meta a,.page-masterminds .kb-coaching-module p.post-meta a,.page-coaching .kb-coaching-module p.post-meta a,.page-charlas-y-webinars .kb-coaching-module p.post-meta a,.page-la-experiencia-del-mastermind .kb-coaching-module p.post-meta a{background-color:lightseagreen !important}
+.page-blog .kb-charlas-webinars-module p.post-meta a,.page-masterminds .kb-charlas-webinars-module p.post-meta a,.page-coaching .kb-charlas-webinars-module p.post-meta a,.page-charlas-y-webinars .kb-charlas-webinars-module p.post-meta a,.page-la-experiencia-del-mastermind .kb-charlas-webinars-module p.post-meta a{background-color:lightseagreen !important}
+.page-charlas-y-webinars .kb-home-hero{background-position:0 30% !important}
+.single-post #page-container{padding-top:0 !important}
+.single-post #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.single-post #page-container .kb-single-post{border-bottom:solid 1px lightgray}
+.single-post #page-container .kb-single-post-metadata{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;max-width:1080px;margin:1rem auto;width:80%}
+.single-post #page-container .kb-single-post-metadata .post-category a{background-color:#401b60;color:white;padding:10px 25px}
+.single-post #page-container .entry-title{text-align:center}
+.single-post #page-container .et_post_meta_wrapper{display:none}
+.single-post #page-container .entry-content ul li{margin-bottom:1rem}
+.single-post #page-container #main-content{border-bottom:solid 1px lightgray}
+.single-post.masterminds .kb-single-post,.single-post.coaching .kb-single-post{position:relative}
+.single-post.masterminds .kb-single-post .kb-single-post-metadata,.single-post.coaching .kb-single-post .kb-single-post-metadata{position:absolute;top:50vh;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.single-post.masterminds .kb-single-post .kb-single-post-metadata .entry-title,.single-post.coaching .kb-single-post .kb-single-post-metadata .entry-title{width:100%;text-align:center}
+.single-post.masterminds .kb-single-post .kb-single-post-metadata .entry-title h2,.single-post.coaching .kb-single-post .kb-single-post-metadata .entry-title h2{color:white}
+.single-post.masterminds #main-content,.single-post.coaching #main-content{border-bottom:none !important}
+.page-shop #page-container{padding-top:0 !important}
+.page-shop #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-shop #page-container h2{text-align:center;font-size:3.35rem}
+.page-shop #page-container .kb-shop-hero{background-position:0 0;min-height:100vh}
+.page-shop #page-container .kb-shop-hero>div{max-width:100%;padding:25vh 0 0}
+.page-shop #page-container .kb-shop-hero .et_pb_text_inner{width:50%}
+.page-shop #page-container .kb-shop-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-shop #page-container .kb-shop-module ul.products li.product{position:relative}
+.page-shop #page-container .kb-shop-module ul.products li.product h2{font-size:1rem;background:rgba(185,168,158,0.75);margin-top:-57px;position:absolute;z-index:9;width:100%;color:white;text-transform:uppercase;font-family:"Open Sans",sans-serif;line-height:2}
+.page-shop #page-container .kb-shop-module ul.products li.product span.price{display:none}
+.single-product #page-container{padding-top:0 !important}
+.single-product #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.single-product #page-container h2{text-align:center;font-size:3.35rem}
+.single-product #page-container .kb-shop-hero{background-position:0 0;background-color:#401b60;min-height:50vh;display:-webkit-box;display:-ms-flexbox;display:flex}
+.single-product #page-container .kb-shop-hero h2{margin:auto;color:white}
+.single-product #page-container .kb-shop-hero h2:after{content:' ';display:block;width:25%;height:2px;background-color:white;margin:2rem auto}
+.single-product #page-container .woocommerce-breadcrumb{display:none}
+.single-product #page-container .type-product h1{font-family:"Open Sans",sans-serif}
+.single-product #page-container .type-product p{line-height:1.5}
+.single-product #page-container .type-product p.price span{font-size:1.25rem !important;color:black}
+.single-product #page-container .type-product button[type="submit"]{color:white;background-color:#401b60;margin-top:2rem !important}
+.single-product #page-container .type-product .quantity{margin-top:2rem !important}
+.single-product #page-container .type-product .quantity:before{content:'Cantidad';display:block;position:absolute;margin-top:-25px}
+.page-cart #page-container{padding-top:0 !important}
+.page-cart #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-cart .kb-home-hero{background-position:0 0;min-height:100vh}
+.page-cart .kb-home-hero>div{max-width:100%;padding:25vh 0 0}
+.page-cart .kb-home-hero .et_pb_text_inner{width:50%}
+.page-cart .kb-home-hero .et_pb_text_inner h1{color:white;font-size:10rem;line-height:1.25}
+.page-cart .button{background-color:#401b60 !important;color:white !important}
+.page-cart .entry-title{font-size:3.35rem;text-align:center}
+.page-my-account #page-container,.um-page-login #page-container,.um-page-register #page-container{padding-top:0 !important}
+.page-my-account #page-container header,.um-page-login #page-container header,.um-page-register #page-container header{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+.page-my-account #page-container h2,.um-page-login #page-container h2,.um-page-register #page-container h2{text-align:center;font-size:3.35rem}
+.page-my-account #page-container .kb-shop-hero,.um-page-login #page-container .kb-shop-hero,.um-page-register #page-container .kb-shop-hero{background-position:0 0;background-color:#401b60;min-height:50vh;display:-webkit-box;display:-ms-flexbox;display:flex}
+.page-my-account #page-container .kb-shop-hero h2,.um-page-login #page-container .kb-shop-hero h2,.um-page-register #page-container .kb-shop-hero h2{margin:auto;color:white}
+.page-my-account #page-container .kb-shop-hero h2:after,.um-page-login #page-container .kb-shop-hero h2:after,.um-page-register #page-container .kb-shop-hero h2:after{content:' ';display:block;width:25%;height:2px;background-color:white;margin:2rem auto}
+.page-my-account #page-container .kb-shop-hero p,.um-page-login #page-container .kb-shop-hero p,.um-page-register #page-container .kb-shop-hero p{color:white;text-align:center}
+.page-my-account #page-container .u-columns,.um-page-login #page-container .u-columns,.um-page-register #page-container .u-columns{width:50%;margin:0 auto}
+.page-my-account #page-container .u-columns>div,.um-page-login #page-container .u-columns>div,.um-page-register #page-container .u-columns>div{width:100% !important}
+.page-my-account #page-container .u-columns>div>h2,.um-page-login #page-container .u-columns>div>h2,.um-page-register #page-container .u-columns>div>h2{display:none}
+.page-my-account #page-container .u-columns>div form,.um-page-login #page-container .u-columns>div form,.um-page-register #page-container .u-columns>div form{border:none !important;margin:0}
+.page-my-account #page-container .u-columns>div form .button,.um-page-login #page-container .u-columns>div form .button,.um-page-register #page-container .u-columns>div form .button{background-color:#401b60 !important;color:white !important;width:100%}
+.page-my-account #page-container .u-columns>div form .woocommerce-form-login__rememberme span,.um-page-login #page-container .u-columns>div form .woocommerce-form-login__rememberme span,.um-page-register #page-container .u-columns>div form .woocommerce-form-login__rememberme span{line-height:0;display:inline-block;vertical-align:text-top;padding-top:8px}
+.page-my-account .um-half,.um-page-login .um-half,.um-page-register .um-half{width:100%}
+.page-my-account .um-half .um-button,.um-page-login .um-half .um-button,.um-page-register .um-half .um-button{background-color:#401b60 !important;color:white !important;margin-bottom:1rem}
+@media(min-width:981px){.page #left-area,.single-product #left-area,.single-post #left-area,.error404 #left-area{width:100%;padding:23px 0 0 !important;float:none !important}
+}@media(max-width:900px){header{position:fixed}
+.home #page-container .kb-home-hero{background-position:70% 0}
+.home #page-container .kb-home-hero .et_pb_text_inner{width:100%;position:relative}
+.home #page-container .kb-home-hero .et_pb_text_inner h1{font-size:5rem;position:absolute;bottom:-70vh}
+.home #page-container .kb-home-cta--newsletter .et_pb_contact_field_half{width:100%;padding:0}
+.home #page-container .kb-home-cta--newsletter .et_contact_bottom_container{width:100%}
+.home #page-container .kb-home-cta--newsletter .et_contact_bottom_container button{width:100%;margin:0;padding:.4em 0}
+.home #page-container .kb-home-testimonials .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.home #page-container .kb-home-testimonials .et-pb-controllers{bottom:0}
+.home #page-container .kb-home-blog .et_pb_blog_0>div{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.page-about #page-container .kb-home-hero{background-position:60% 0}
+.page-book .kb-home-hero{background-position:46% 0}
+.page-book .kb-book-excerpt>div{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.page-book .kb-book-excerpt>div h2{text-align:center}
+.page-book .kb-book-slider .et_pb_slides .et_pb_slide .et_pb_slide_description .et_pb_slide_content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.page-book .kb-book-slider .et-pb-controllers{bottom:0}
+.page-book .kb-book-to-shop>div>div>div img{max-width:80%;margin:2rem 0}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.page-blog #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-masterminds #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-coaching #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-charlas-y-webinars #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta,.page-la-experiencia-del-mastermind #page-container .kb-home-blog .et_pb_blog_0>div article p.post-meta{margin-top:10px}
+.page-shop #page-container .kb-shop-module ul.products li.product{width:100%}
+.page-cart .kb-home-hero{background-position:70% 0}
+.page-cart .button{width:100% !important}
+}
