@@ -17,11 +17,11 @@
 function hs_enqueue_scripts() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
-add_action( 'wp_enqueue_scripts', 'kb_enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', 'hs_enqueue_scripts' );
 
 // Custom scripts
-add_action( 'wp_enqueue_scripts', 'kb_scripts' );
-function kb_scripts() {
+add_action( 'wp_enqueue_scripts', 'hs_scripts' );
+function hs_scripts() {
 
 	$script_filemtime = get_stylesheet_directory() . '/custom.min.js';
 
@@ -58,7 +58,7 @@ add_action( 'login_enqueue_scripts', 'hs_login_stylesheet' );
 add_action('admin_menu', 'remove_admin_menu_links');
 function remove_admin_menu_links(){
     $user = wp_get_current_user();
-    if( $user && isset($user->user_email) && 'elpuas@gmail.com' != $user->user_email ) {
+    if( $user && isset($user->user_email) && 'elpuas@gmail.com' && 'gian@gianko.com' != $user->user_email ) {
         remove_menu_page('tools.php');
         remove_menu_page('themes.php');
         remove_menu_page('options-general.php');
@@ -73,4 +73,16 @@ function remove_admin_menu_links(){
 		
     }
 }
+
+/**
+ * Add custom header
+*/
+/*
+function custom_header ( $main_header ) {
+        $custom_header .= do_shortcode('[et_pb_section global_module="105"][/et_pb_section]');
+	return $custom_header . $main_header;
+}
+
+add_filter( 'et_html_main_header', 'custom_header' );
+*/
 

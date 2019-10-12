@@ -1,0 +1,176 @@
+header #et-top-navigation {
+	background-color: $white-color;
+}
+
+.home-section1--title {
+	display: none;
+}
+
+.home-section1.et_pb_section {
+	padding: 0px;
+}
+
+.home-section1 .et_pb_slide_description,
+.et_pb_slider_fullwidth_off .et_pb_slide_description {
+	padding: 10% 0%;
+}
+
+.home-section1 a.et-pb-arrow-next {
+	font-size: 130px;
+	z-index: 9;
+}
+
+.home-section1 a.et-pb-arrow-prev {
+	font-size: 130px;
+}
+
+.home-section2 {
+	height: 650px;
+}
+
+.home-section2 .text.et_pb_text_align_left div {
+	color: $white-color;
+	margin: 14% 10%;
+	padding: 10% 0;
+	font-size: 20px;
+	text-align: left;
+	font-weight: 900 !important;
+}
+
+.home-section3.et_pb_section {
+	padding: 0px 0;
+	background-color: $primary-color;
+}
+
+.home-section3.et_pb_section .et_pb_row_2 .et_pb_image_0 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.home-section3.et_pb_section .et_pb_row_3 .et_pb_text_inner {
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.home-section3.et_pb_section .et_pb_row_3 .et_pb_text_inner h2 {
+	color: $white-color;
+}
+
+.home-section3.et_pb_section .et_pb_row_3 .et_pb_text_inner p {
+	color: $white-color;
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+.home-section3.et_pb_section a {
+	color: $secondary-color;
+}
+
+.home-section3.et_pb_section .et_pb_button_module_wrapper.et_pb_button_0_wrapper.et_pb_module {
+	padding-left: 30px;
+}
+
+.home-section4.et_pb_row_4 .et_pb_image_0 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.home-section4.et_pb_row_4 .et_pb_text_inner {
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.home-section4.et_pb_row_4 .et_pb_text_inner h2 {
+	color: $white-color;
+}
+
+.home-section4.et_pb_row_4 .et_pb_text_inner p {
+	color: $white-color;
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+.home-section4.et_pb_row_4 a {
+	color: $secondary-color;
+}
+
+.home-section4.et_pb_row_4 .et_pb_button_module_wrapper.et_pb_button_1_wrapper.et_pb_module {
+	padding-left: 30px;
+}
+
+.home-section5 .home-section5--row .et_pb_column.et_pb_column_1_2.et_pb_column_8.et_pb_css_mix_blend_mode_passthrough {
+	background-color: $white-color;
+	padding: 5% 0;
+}
+
+.home-section5 .home-section5--row .home-section5--title h2 {
+	color: $secondary--dark;
+	padding-left: 30px;
+}
+
+.home-section5 .home-section5--row .home-section5--text p {
+	color: $black-color;
+	padding-left: 30px;
+	padding-right: 40px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.8em;
+}
+
+.home-section5 .home-section5--row .et_pb_button_module_wrapper.et_pb_button_2_wrapper.et_pb_module {
+	padding-left: 30px;
+}
+
+.home-section5 a.et_pb_button {
+	background-color: $secondary-color;
+	border: none;
+	color: $white-color;
+	font-weight: 100;
+	padding: 8px 60px;
+}
+
+.home-section6 .et_pb_text_inner span {
+
+	float: left;
+	font-size: 18px;
+	width: 60%;
+}
+
+.home-section6 .et_pb_text_inner img {
+	width: 40%;
+	float: left;
+	padding-top: 10px;
+	display: flex;
+}
+
+.home-section6 img {
+	max-width: 850px;
+	width: 100%;
+}
+
+
+/*
+.home-section6 img {
+	margin-top: -10%;
+	float: right;
+	width: 450px;
+	border: 1px solid #000;
+}
+
+.home-section6 .et_pb_image .et_pb_image_wrap {
+	display: block;
+}
+
+*/
+.home-section6 a.et_pb_button {
+	background-color: $secondary-color;
+	border: none;
+	color: $white-color;
+	font-weight: 100;
+	padding: 8px 60px;
+}
+
+.home-section6 .et_pb_button_module_wrapper.et_pb_button_3_wrapper {
+	margin-top: 8%;
+	clear: both;
+}
