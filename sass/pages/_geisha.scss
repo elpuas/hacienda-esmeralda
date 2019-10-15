@@ -1,0 +1,27 @@
+.page-geisha-section-0 h1 {
+	color: $primary-color !important;
+	font-family: 'Alice', Georgia, "Times New Roman", serif !important;
+	font-weight: 900;
+}
+
+.page-geisha-section-0 a.et_pb_button {
+	border: 1px solid $secondary-color;
+	background-color: $secondary-color;
+	color: $white-color;
+	font-weight: 100;
+	padding: 8px 60px;
+}
+
+.page-geisha-section-0 a.et_pb_button:hover {
+	border: 1px solid $secondary-color;
+	background-color: $primary-color;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-geisha-section-2 .et_pb_module.et_pb_image.et_pb_image_0 {
+	padding-top: 10%;
+	padding-bottom: 69%;
+	margin-top: 65%;
+	margin-bottom: 0px !important;
+}
