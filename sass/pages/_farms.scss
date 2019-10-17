@@ -1,0 +1,47 @@
+.page-farms-section-0 h1 {
+	color: $primary-color;
+	font-family: 'Alice', Georgia, "Times New Roman", serif;
+	font-size: 58px;
+	letter-spacing: -3px;
+	line-height: 1.1em;
+}
+
+.page-farms-section-1 h2 {
+	color: $secondary--dark;
+	font-family: 'Alice', Georgia, "Times New Roman", serif;
+	font-size: 38px;
+	letter-spacing: -3px;
+	line-height: 1.1em;
+}
+
+.page-farms-section-2 h2 {
+	color: $secondary-light;
+	font-family: 'Alice', Georgia, "Times New Roman", serif;
+	font-size: 58px;
+	letter-spacing: -3px;
+	line-height: 1.1em;
+}
+
+.page-farms-section-2 p {
+	color: $white-color;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.page-farms-section-2 li {
+	color: $white-color;
+	padding: 0 25px;
+	float: left;
+	line-height: 2.3em;
+	margin: 5px 10px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.page-farms-section-2 a.et_pb_button {
+	border: 1px solid $secondary-light;
+	background-color: $secondary-color;
+	color: $white-color;
+	font-weight: 100;
+	padding: 8px 60px;
+}
