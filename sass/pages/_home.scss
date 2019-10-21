@@ -39,6 +39,57 @@ header li p {
 		-webkit-filter: brightness(0) invert(1);
 		filter: brightness(0) invert(1);
 	}
+
+	.home-section2 .text.et_pb_text_align_left div {
+		color: #fff;
+		margin: 0%;
+		padding: 9%;
+		font-size: 15px;
+		text-align: left;
+		font-weight: 900 !important;
+		background-color: #a52a2a;
+	}
+
+	.home-section5 .home-section5--row .home-section5--text p {
+		font-size: 15px;
+	}
+
+	.home-section5 a.et_pb_button {
+		padding: 8px 28px;
+	}
+
+	.home-section6 .et_pb_text_inner img {
+		width: 100%;
+	}
+
+	.home-section6 .et_pb_text_inner span {
+		font-size: 15px;
+		font-weight: 300;
+		width: 100%;
+	}
+
+	.home-section3.et_pb_section .et_pb_row_3 .et_pb_text_inner {
+		padding-left: 0;
+	}
+
+	.home-section4.et_pb_row_4 .et_pb_text_inner {
+		padding-left: 0;
+	}
+
+	.et_pb_image_1 {
+		margin-right: 0px !important;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.et_pb_image_2 {
+		padding-left: 0px;
+		margin-left: 0px !important;
+	}
+
+	.et_pb_text_inner p {
+		font-weight: 300;
+	}
 }
 
 a span.shop:after {
