@@ -103,6 +103,7 @@ img#logo{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}
 .home-section4 .et_pb_image_2{margin-left:0 !important}
 .et_pb_text_inner p{font-weight:300}
 .home-section6 .et_pb_row_6.et_pb_row{margin-right:0 !important;margin-left:0 !important}
+.et_pb_row.et_pb_row_6.home-section6--row{width:90%;padding:0 10%}
 .page-process-section-0 .et_pb_text_0 h1{font-size:32px}
 .page-process-section-0 .et_pb_column .et_pb_module{margin-bottom:0}
 }
