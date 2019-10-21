@@ -43,7 +43,7 @@ header li p {
 	.home-section2 .text.et_pb_text_align_left div {
 		color: #fff;
 		margin: 0%;
-		padding: 9%;
+		padding: 35% 20px;
 		font-size: 15px;
 		text-align: left;
 		font-weight: 900 !important;
@@ -76,19 +76,21 @@ header li p {
 		padding-left: 0;
 	}
 
-	.et_pb_image_1 {
+	.home-section3 .et_pb_image_1 {
 		margin-right: 0px !important;
-		text-align: center;
-		margin-left: 0;
 	}
 
-	.et_pb_image_2 {
-		padding-left: 0px;
+	.home-section4 .et_pb_image_2 {
 		margin-left: 0px !important;
 	}
 
 	.et_pb_text_inner p {
 		font-weight: 300;
+	}
+
+	.home-section6 .et_pb_row_6.et_pb_row {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
 	}
 }
 
