@@ -91,7 +91,6 @@ li.centered-inline-logo-wrap{padding:0;margin:-3% 30px 0 0 !important}
 }@media all and (min-width:980px) and (max-width:1440px){a span.shop{margin-right:10px !important}
 }@media(max-width:980px){a span.shop:after{color:white !important;font-weight:100}
 span.select_page,span.mobile_menu_bar.mobile_menu_bar_toggle:before{color:#901a1d !important}
-img#logo{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}
 .home-section2 .text.et_pb_text_align_left div{color:#fff;margin:0;padding:35% 20px;font-size:15px;text-align:left;font-weight:900 !important;background-color:#a52a2a}
 .home-section5 .home-section5--row .home-section5--text p{font-size:15px}
 .home-section5 a.et_pb_button{padding:8px 28px}
