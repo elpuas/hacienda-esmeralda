@@ -26,7 +26,7 @@ header li p{margin:0 10px}
 .page-home-section-1 .et_pb_row{width:100% !important;max-width:100% !important}
 .et-pb-controllers a:hover{color:gray}
 .page-home-section-3 .et_pb_bg_layout_light.et_pb_button:hover{background-color:#e2aa06;color:#901a1d}
-.page-home-section-3 .et_pb_column_3 img{max-width:180px}
+.page-home-section-3 .et_pb_column_3 img{max-width:180px !important}
 a span.shop:after{font-family:'ETmodules';content:"\e013";margin-left:10px;margin-top:-4px;color:#901a1d;display:inline;font-size:24px}
 li.centered-inline-logo-wrap{padding:0;margin:-3% 30px 0 0 !important}
 .page-home-section-1--title{display:none}
