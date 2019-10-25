@@ -46,6 +46,10 @@ header li p {
 }
 
 @media (max-width: 980px) {
+	.page-home-section-2.et_pb_with_background.et_section_regular {
+		background-position-x: right !important;
+	}
+
 	a span.shop:after {
 		color: $white-color !important;
 		font-weight: 100;
@@ -214,9 +218,6 @@ li.centered-inline-logo-wrap {
 	padding-top: 30px;
 }
 
-.page-home-section-2.et_pb_with_background.et_section_regular {
-	background-position-x: right !important;
-}
 
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner h2 {
 	color: $white-color;

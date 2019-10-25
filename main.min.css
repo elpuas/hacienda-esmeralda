@@ -44,7 +44,6 @@ li.centered-inline-logo-wrap{padding:0;margin:-3% 30px 0 0 !important}
 .page-home-section-3.et_pb_section .et_pb_button_module_wrapper.et_pb_button_0_wrapper.et_pb_module{padding-left:30px}
 .page-home-section-3 .et_pb_row_4 .et_pb_image_0{padding-top:10px;text-align:center}
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner{padding-top:30px}
-.page-home-section-2.et_pb_with_background.et_section_regular{background-position-x:right !important}
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner h2{color:white}
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner p{color:white;padding:40px 0}
 .page-home-section-3 .et_pb_row_2.row-white img{max-width:180px}
@@ -108,7 +107,8 @@ div h2{position:relative}
 .page-process-section-1 .et_pb_column_3 p{margin-top:20px}
 @media all and (min-width:768px) and (max-width:980px){a span.shop{margin-left:10px !important}
 }@media all and (min-width:980px) and (max-width:1440px){a span.shop{margin-right:10px !important}
-}@media(max-width:980px){a span.shop:after{color:white !important;font-weight:100}
+}@media(max-width:980px){.page-home-section-2.et_pb_with_background.et_section_regular{background-position-x:right !important}
+a span.shop:after{color:white !important;font-weight:100}
 span.select_page,span.mobile_menu_bar.mobile_menu_bar_toggle:before{color:#901a1d !important}
 .page-home-section-2 .text.et_pb_text_align_left div{color:black !important;margin:0;padding:35% 20px}
 .page-home-section-2 div.et_pb_section.et_pb_section_1{background-position-x:right}
