@@ -1,3 +1,9 @@
 footer {
-    
+	#footer-bottom .et-social-icon a {
+		color: $white-color;
+	}
+
+	.et-social-skype a.icon:before {
+		content: '\e0a2';
+	}
 }

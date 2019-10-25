@@ -12,6 +12,8 @@ h2{font-size:3.35rem}
 p,li,a,em{font-family:"Open Sans",sans-serif;line-height:1;font-weight:500}
 p{line-height:2}
 code{font-family:'Courier New',Courier,monospace}
+footer #footer-bottom .et-social-icon a{color:white}
+footer .et-social-skype a.icon:before{content:'\e0a2'}
 header #et-top-navigation{background-color:white}
 header li a{font-variant-caps:all-small-caps;font-size:20px;font-weight:400}
 header li p{margin:0 10px}
