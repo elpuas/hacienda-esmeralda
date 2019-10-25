@@ -17,7 +17,7 @@ footer .et-social-skype a.icon:before{content:'\e0a2'}
 div.section--footer button.et_pb_contact_submit.et_pb_button:hover{background-color:#e2aa06 !important}
 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover{color:#901a1d !important}
 div.section--footer p{color:white !important}
-div.section--footer a{color:#e2aa06 !important}
+div.section--footer a{font-size:16px;color:#e2aa06 !important}
 div.section--footer img{max-width:180px}
 header #et-top-navigation{background-color:white}
 header li a{font-variant-caps:all-small-caps;font-size:20px;font-weight:400}
