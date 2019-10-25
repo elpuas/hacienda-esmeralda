@@ -1,6 +1,6 @@
 .mobile_nav.opened .mobile_menu_bar:before{content:'\4d'}
 @font-face{font-family:'Northwell';src:url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff2") format("woff2"),url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff") format("woff");font-weight:bold;font-style:normal}
-:not(.page-home-section-1) div.et_pb_section.et_pb_section_0{background-color:linear-gradient(90deg,#f4f0e9e6 30%,#f4f0e900 100%) !important;min-height:495px !important;max-height:495px !important}
+:not(.page-home-section-1,.page-process-section-0) div.et_pb_section.et_pb_section_0{background-color:linear-gradient(90deg,#f4f0e9e6 30%,#f4f0e900 100%) !important;min-height:495px !important;max-height:495px !important}
 :not(.page-home-section-1) div.et_pb_section.et_pb_section_0 h1{font-size:80px;letter-spacing:-3px;line-height:1.1em}
 :not(.page-home-section-1).et_pb_section_0.et_pb_section{padding-top:119px !important;padding-right:0 !important;padding-bottom:119px !important;padding-left:0 !important}
 :not(.page-home-section-1) .et_pb_row_0.et_pb_row{padding-top:0 !important;padding-right:0 !important;padding-bottom:0 !important;padding-left:0 !important}
