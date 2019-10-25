@@ -12,6 +12,27 @@ header li p {
 	margin: 0 10px;
 }
 
+[class^='page-home-section-'] p {
+	font-size: 1rem !important;
+}
+
+
+
+
+.page-home-section-1 .et_pb_row {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.et-pb-controllers a:hover {
+	color: gray;
+}
+
+.page-home-section-3 .et_pb_bg_layout_light.et_pb_button:hover {
+	background-color: $secondary-light;
+	color: $primary-color;
+}
+
 @media all and (min-width: 980px) and (max-width: 1440px) {
 	a span.shop {
 		margin-right: 10px !important;
@@ -43,13 +64,13 @@ header li p {
 	}*/
 
 	.page-home-section-2 .text.et_pb_text_align_left div {
-		color: #fff;
+		color: $black-color !important;
 		margin: 0%;
 		padding: 35% 20px;
-		font-size: 15px;
-		text-align: left;
-		font-weight: 900 !important;
-		background-color: #a52a2a;
+	}
+
+	.page-home-section-2 div.et_pb_section.et_pb_section_1 {
+		background-position-x: right;
 	}
 
 	.page-home-section-5 .rows-black .page-home-section-5--text p {
@@ -144,7 +165,7 @@ li.centered-inline-logo-wrap {
 }
 
 .page-home-section-2 .text.et_pb_text_align_left div {
-	color: $white-color;
+	color: $black-color;
 	margin: 14% 10%;
 	padding: 10% 0;
 	font-size: 20px;
