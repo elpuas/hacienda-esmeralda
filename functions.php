@@ -86,3 +86,9 @@ function custom_header ( $main_header ) {
 add_filter( 'et_html_main_header', 'custom_header' );
 */
 
+// CUSTOM FOOTER
+
+function custom_footer() {
+     echo do_shortcode('[et_pb_section global_module="882"][/et_pb_section]');
+}
+	add_action( 'et_after_main_content', 'custom_footer' );

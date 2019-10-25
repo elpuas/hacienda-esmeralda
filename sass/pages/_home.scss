@@ -195,7 +195,6 @@ li.centered-inline-logo-wrap {
 .page-home-section-3.et_pb_section .et_pb_row_3 .et_pb_text_inner p {
 	color: $white-color;
 	padding: 40px 0;
-	font-size: 20px;
 }
 
 .page-home-section-3.et_pb_section a {
@@ -212,7 +211,6 @@ li.centered-inline-logo-wrap {
 }
 
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner {
-	padding-left: 30px;
 	padding-top: 30px;
 }
 
@@ -223,7 +221,24 @@ li.centered-inline-logo-wrap {
 .page-home-section-3 .et_pb_row_4 .et_pb_text_inner p {
 	color: $white-color;
 	padding: 40px 0;
-	font-size: 20px;
+}
+
+.page-home-section-3 .et_pb_row_2.row-white img {
+	max-width: 180px;
+}
+
+div h2 {
+	position: relative;
+}
+
+[class*="page-home-section-"] h2:before {
+	position: absolute;
+	content: '';
+	width: 30%;
+	border-bottom: 10px solid $secondary-light;
+	bottom: -10px;
+	left: 0;
+	margin-bottom: 5px !important;
 }
 
 .page-home-section-3 .et_pb_row_4 a {
@@ -248,8 +263,6 @@ li.centered-inline-logo-wrap {
 	color: $black-color;
 	padding-left: 30px;
 	padding-right: 40px;
-	font-size: 20px;
-	font-weight: 300;
 	line-height: 1.8em;
 }
 
