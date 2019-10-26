@@ -7,7 +7,7 @@
 .drop-shadow{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.25);box-shadow:0 0 8px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);background-color:#901a1d}
 :root{font-size:18px}
 h1{text-transform:capitalize !important}
-h2{font-family:"Open Sans",Arial,sans-serif}
+h2{font-family:"Open Sans",Arial,sans-serif !important}
 h1{font-family:"Alice",Georgia,"Times New Roman",serif !important;line-height:1}
 h2{font-size:2.6rem !important}
 p,li,a,em{font-family:"Open Sans",sans-serif;line-height:1;font-weight:400}
