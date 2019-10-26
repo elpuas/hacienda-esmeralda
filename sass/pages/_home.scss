@@ -113,6 +113,10 @@ div.page-home-section-1 .et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_slide_de
 		top: 6px;
 	}
 
+	#top-menu li.current-menu-item>a {
+		color: $primary-color;
+	}
+
 	.mobile_menu_bar:before {
 		font-size: 3rem;
 	}

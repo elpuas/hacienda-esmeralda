@@ -120,6 +120,7 @@ div h2{position:relative}
 .et_header_style_split #main-header .mobile_nav{background-color:white !important;padding:0 !important}
 .et_header_style_split .mobile_menu_bar{top:-80px;right:-30px}
 .et_header_style_split .et_mobile_menu{top:6px}
+#top-menu li.current-menu-item>a{color:#901a1d}
 .mobile_menu_bar:before{font-size:3rem}
 #main-header,#main-header .et_mobile_menu{background-color:white !important;color:#901a1d}
 a span.shop:after{font-weight:100}
