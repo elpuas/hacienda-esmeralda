@@ -272,6 +272,13 @@ div h2 {
 	margin-bottom: 5px !important;
 }
 
+[class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
+	left: 0%;
+	right: 0;
+	margin: 0 auto;
+	margin-bottom: 7px !important;
+}
+
 .page-home-section-3 .et_pb_row_4 a {
 	color: $secondary-color;
 }
