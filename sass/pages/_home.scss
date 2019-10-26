@@ -70,12 +70,13 @@ div.page-home-section-1 .et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_slide_de
 		color: $primary-color !important;
 	}
 
-	/*
-	// brightness logo
-	img#logo {
-		-webkit-filter: brightness(0) invert(1);
-		filter: brightness(0) invert(1);
-	}*/
+	[class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
+		left: 0%;
+		right: 0;
+		margin: 0 auto;
+		margin-bottom: 7px !important;
+	}
+
 	.page-home-section-2.et_pb_with_background.et_section_regular {
 		background-position-x: right !important;
 	}
@@ -270,13 +271,6 @@ div h2 {
 	bottom: -10px;
 	left: 0;
 	margin-bottom: 5px !important;
-}
-
-[class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
-	left: 0%;
-	right: 0;
-	margin: 0 auto;
-	margin-bottom: 7px !important;
 }
 
 .page-home-section-3 .et_pb_row_4 a {
