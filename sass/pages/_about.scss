@@ -26,14 +26,15 @@
 
 .page-awards-section-3 h2 {
 	color: $primary-color;
-	font-family: 'Alice', Georgia, "Times New Roman", serif;
-	font-size: 58px;
-	letter-spacing: -3px;
-	line-height: 1.1em;
+
 }
 
 .page-awards-section-3 ul li {
-	font-size: 22px;
 	letter-spacing: 0px;
 	line-height: 1.8em;
+}
+
+.history-section_3 p,
+.history-section_3 h2 {
+	color: $white-color;
 }
