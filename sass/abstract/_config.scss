@@ -79,7 +79,16 @@ sans-serif;
 	span {
 		font-size: 1rem !important;
 	}
+
+	[class*="page-main-collection-section"] .et_pb_row_2.et_pb_row {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+
 }
+
+
 
 // Breakpoints
 $m: 1070px;
