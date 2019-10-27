@@ -73,23 +73,14 @@ h2,h3,h4{color:#901a1d}
 .page-collection-section-3 a.et_pb_button{border:1px solid #e2aa06;background-color:#e2aa06;color:white;padding:8px 60px}
 .page-collection-section-3 a.et_pb_button:hover{border:1px solid #901a1d;background-color:#901a1d;color:white;padding:8px 60px}
 [class*="page-collection-section"] h2:before{position:absolute;content:'';width:30%;border-bottom:10px solid #e2aa06;bottom:-5px;left:0;margin-bottom:5px !important}
-.page-geisha-section-0 h1{color:#901a1d !important;font-weight:900}
-.page-geisha-section-0 a.et_pb_button{border:1px solid #a36209;background-color:#a36209;color:white;padding:8px 60px}
-.page-geisha-section-0 a.et_pb_button:hover{border:1px solid #a36209;background-color:#901a1d;color:white;padding:8px 60px}
-.page-geisha-section-2 .et_pb_module.et_pb_image.et_pb_image_0{padding-top:10%;padding-bottom:69%;margin-top:65%;margin-bottom:0 !important}
-.page-geisha-section-3 a{color:#901a1d}
-.page-private-section-0 h1{color:#901a1d}
-.page-private-section-3 h2{color:white}
-.page-private-section-3 p{color:white;font-weight:200}
-.page-private-section-3 a{color:white;background-color:#e2aa06}
-.page-1500-section-0 h1{color:#901a1d}
-.page-1500-section-3 h2{color:white}
-.page-1500-section-3 p{color:white;font-weight:200}
-.page-1500-section-3 a{color:white;background-color:#e2aa06}
-.page-esmeralda-section-0 h1{color:#901a1d}
-.page-esmeralda-section-3 h2{color:white}
-.page-esmeralda-section-3 p{color:white;font-weight:200}
-.page-esmeralda-section-3 a{color:white;background-color:#e2aa06}
+.page-collection-section-0 h1{color:#901a1d !important;font-weight:900}
+.page-main-collection-section-0 h1{color:#901a1d !important;font-weight:900}
+.page-main-collection-section-0 a.et_pb_button{border:1px solid #e2aa06;background-color:#e2aa06;color:white;padding:8px 60px}
+.page-main-collection-section-0 a.et_pb_button:hover{border:1px solid #901a1d;background-color:#901a1d;color:white;padding:8px 60px}
+.page-main-collection-section-1 h2:before{position:absolute;content:'';width:10%;border-bottom:10px solid #e2aa06;bottom:-5px;left:0;margin:0 9%}
+.page-main-collection-section-2 h2:before{position:absolute;content:'';width:20%;border-bottom:10px solid #e2aa06;bottom:-5px;left:0;margin:0}
+.page-main-collection-section-3 a.et_pb_button:hover{border:1px solid #e2aa06;background-color:#e2aa06;color:white;padding:8px 60px}
+.page-main-collection-section-3 a.et_pb_button{border:1px solid #901a1d;background-color:#901a1d;color:white;padding:8px 60px}
 .history-section_1 .history-section_1--row h1{color:#4d392f}
 .history-section_1 .history-section_1--row span{color:#a36209}
 .history-section_2.et_pb_section_1.et_pb_section{padding-top:0;padding-bottom:0}
