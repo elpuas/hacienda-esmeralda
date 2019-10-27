@@ -4,10 +4,47 @@ h4 {
 	color: $primary-color;
 }
 
+[class*="page-collection-section-3"] p,
+[class*="page-collection-section-3"] h2 {
+	color: $white-color;
+}
+
+.page-collection-section-3 a.et_pb_button {
+	border: 1px solid $secondary-light;
+	background-color: $secondary-light;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-collection-section-3 a.et_pb_button:hover {
+	border: 1px solid $primary-color;
+	background-color: $primary-color;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+[class*="page-collection-section"] h2:before {
+	position: absolute;
+	content: '';
+	width: 30%;
+	border-bottom: 10px solid $secondary-light;
+	bottom: -5px;
+	left: 0;
+	margin-bottom: 5px !important;
+}
+
+
+
+
+
+
+
 .page-geisha-section-0 h1 {
 	color: $primary-color !important;
 	font-weight: 900;
 }
+
+
 
 .page-geisha-section-0 a.et_pb_button {
 	border: 1px solid $secondary-color;

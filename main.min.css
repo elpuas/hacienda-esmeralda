@@ -69,6 +69,10 @@ div h2{position:relative}
 .page-home-section-6 a.et_pb_button{background-color:#a36209;border:0;color:white;font-weight:100;padding:8px 60px}
 .page-home-section-6 .et_pb_button_module_wrapper.et_pb_button_3_wrapper{margin-top:8%;clear:both}
 h2,h3,h4{color:#901a1d}
+[class*="page-collection-section-3"] p,[class*="page-collection-section-3"] h2{color:white}
+.page-collection-section-3 a.et_pb_button{border:1px solid #e2aa06;background-color:#e2aa06;color:white;padding:8px 60px}
+.page-collection-section-3 a.et_pb_button:hover{border:1px solid #901a1d;background-color:#901a1d;color:white;padding:8px 60px}
+[class*="page-collection-section"] h2:before{position:absolute;content:'';width:30%;border-bottom:10px solid #e2aa06;bottom:-5px;left:0;margin-bottom:5px !important}
 .page-geisha-section-0 h1{color:#901a1d !important;font-weight:900}
 .page-geisha-section-0 a.et_pb_button{border:1px solid #a36209;background-color:#a36209;color:white;padding:8px 60px}
 .page-geisha-section-0 a.et_pb_button:hover{border:1px solid #a36209;background-color:#901a1d;color:white;padding:8px 60px}
