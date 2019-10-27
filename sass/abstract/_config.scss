@@ -59,7 +59,10 @@ sans-serif;
 	padding-left: 0px !important;
 }
 
-
+#top-menu li.current-menu-item>a,
+#top-menu li.current-menu-ancestor>a {
+	color: $primary-color;
+}
 
 // Breakpoints
 $m: 1070px;

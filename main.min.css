@@ -4,6 +4,7 @@
 :not(.page-home-section-1) div.et_pb_section.et_pb_section_0 h1{font-size:80px;letter-spacing:-3px;line-height:1.1em}
 :not(.page-home-section-1).et_pb_section_0.et_pb_section{padding-top:119px !important;padding-right:0 !important;padding-bottom:119px !important;padding-left:0 !important}
 :not(.page-home-section-1) .et_pb_row_0.et_pb_row{padding-top:0 !important;padding-right:0 !important;padding-bottom:0 !important;padding-left:0 !important}
+#top-menu li.current-menu-item>a,#top-menu li.current-menu-ancestor>a{color:#901a1d}
 .drop-shadow{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.25);box-shadow:0 0 8px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);background-color:#901a1d}
 :root{font-size:18px}
 h1{text-transform:capitalize !important}
@@ -67,6 +68,7 @@ div h2{position:relative}
 .page-home-section-6 img{max-width:850px;width:100%}
 .page-home-section-6 a.et_pb_button{background-color:#a36209;border:0;color:white;font-weight:100;padding:8px 60px}
 .page-home-section-6 .et_pb_button_module_wrapper.et_pb_button_3_wrapper{margin-top:8%;clear:both}
+h2,h3,h4{color:#901a1d}
 .page-geisha-section-0 h1{color:#901a1d !important;font-weight:900}
 .page-geisha-section-0 a.et_pb_button{border:1px solid #a36209;background-color:#a36209;color:white;padding:8px 60px}
 .page-geisha-section-0 a.et_pb_button:hover{border:1px solid #a36209;background-color:#901a1d;color:white;padding:8px 60px}
@@ -93,15 +95,11 @@ div h2{position:relative}
 .page-awards-section-3 h2{color:#901a1d}
 .page-awards-section-3 ul li{letter-spacing:0;line-height:1.8em}
 .history-section_3 p,.history-section_3 h2{color:white}
-.page-palmira-section-0 h1{color:#e2aa06}
-.page-palmira-section-3 h2{color:white}
-.page-palmira-section-3 p{color:white;font-weight:200}
-.page-palmira-section-3 a{color:white;background-color:#e2aa06}
 .page-farms-section-0 h1{color:#901a1d;letter-spacing:-3px;line-height:1.1em}
-.page-farms-section-1 h2{color:#4d392f;letter-spacing:-3px;line-height:1.1em}
+.page-farms-section-1 h2{color:#901a1d;letter-spacing:-3px;line-height:1.1em}
 .page-farms-section-2 h2{color:#e2aa06;letter-spacing:-3px;line-height:1.1em}
 .page-farms-section-2 p{color:white;font-weight:100}
-.page-farms-section-2 li{color:white;padding:0 25px;float:left;line-height:2.3em;margin:5px 10px;font-weight:100}
+.page-farms-section-2 li{color:white;font-size:155%;padding:0 20px;float:left;line-height:2.3em;margin:5px 10px;font-weight:400}
 .page-farms-section-2 a.et_pb_button{border:1px solid #e2aa06;background-color:#a36209;color:white;font-weight:100;padding:8px 60px}
 .page-process-section-0 h1{color:#901a1d}
 .page-process-section-0 .et_pb_column.et_pb_column_1_2 img{width:44%;position:relative;left:28px;top:415px}

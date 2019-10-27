@@ -1,22 +1,3 @@
-.page-palmira-section-0 h1 {
-	color: $secondary-light;
-}
-
-.page-palmira-section-3 h2 {
-	color: $white-color;
-}
-
-.page-palmira-section-3 p {
-	color: $white-color;
-	font-weight: 200;
-}
-
-.page-palmira-section-3 a {
-	color: $white-color;
-	background-color: $secondary-light;
-}
-
-
 .page-farms-section-0 h1 {
 	color: $primary-color;
 	letter-spacing: -3px;
@@ -24,7 +5,7 @@
 }
 
 .page-farms-section-1 h2 {
-	color: $secondary--dark;
+	color: $primary-color;
 	letter-spacing: -3px;
 	line-height: 1.1em;
 }
@@ -42,11 +23,12 @@
 
 .page-farms-section-2 li {
 	color: $white-color;
-	padding: 0 25px;
+	font-size: 155%;
+	padding: 0 20px;
 	float: left;
 	line-height: 2.3em;
 	margin: 5px 10px;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .page-farms-section-2 a.et_pb_button {
