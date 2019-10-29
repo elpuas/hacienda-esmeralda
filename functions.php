@@ -96,7 +96,7 @@ add_action( 'admin_menu', 'remove_admin_menu_links' );
 /**
  * Add a custom footer
  *
- * @author Giancarlo Villalobos
+ * @author Giancarlos Villalobos
  */
 function custom_footer() {
 	echo do_shortcode( '[et_pb_section global_module="882"][/et_pb_section]' );

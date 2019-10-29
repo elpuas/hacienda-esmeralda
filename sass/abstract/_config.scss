@@ -66,6 +66,16 @@ sans-serif;
 	color: $primary-color;
 }
 
+[class*="page-"] h2:before {
+	border-bottom: 3px solid $secondary-light;
+	position: absolute;
+	content: '';
+	width: 100px;
+	bottom: 0%;
+	left: 0;
+
+}
+
 @media (max-width: 980px) {
 	.et_pb_row.et_pb_row_0 h1 {
 		font-size: 2.8rem !important;
@@ -112,19 +122,21 @@ $xs: 425px;
 
 h1 {
 	text-transform: capitalize !important;
-}
-
-h2 {
-	font-family: "Open Sans", Arial, sans-serif !important;
-}
-
-h1 {
+	color: $secondary--dark;
 	font-family: $brand-primary-font;
 	line-height: 1;
 }
 
 h2 {
+	font-family: "Open Sans", Arial, sans-serif !important;
 	font-size: 2.6rem !important;
+}
+
+h5 {
+	font-size: 2.6rem;
+	color: $white-color;
+	font-weight: 100;
+	font-family: 'Times New Roman', Times, serif !important;
 }
 
 p,

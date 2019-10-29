@@ -324,17 +324,6 @@ div h2 {
 	position: relative;
 }
 
-[class*="page-home-section-"] h2:before {
-	position: absolute;
-	content: '';
-	width: 30%;
-	border-bottom: 10px solid $secondary-light;
-	bottom: -10px;
-	left: 0;
-	margin-bottom: 5px !important;
-}
-
-
 
 .page-home-section-5 .rows-black .et_pb_column.et_pb_column_1_2.et_pb_column_8.et_pb_css_mix_blend_mode_passthrough {
 	background-color: $white-color;

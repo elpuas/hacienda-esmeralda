@@ -29,3 +29,40 @@ div.section--footer a {
 div.section--footer img {
 	max-width: 180px;
 }
+
+#et_pb_contact_form_0 input#et_pb_contact_name_0 {
+	background-color: #0000;
+	border-bottom: $secondary-light 1px solid;
+}
+
+#et_pb_contact_form_0 input#et_pb_contact_email_0 {
+	background-color: #0000;
+	border-bottom: $secondary-light 1px solid;
+}
+
+#et_pb_contact_form_0 .et_pb_contact p input {
+	color: $secondary-light;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1rem;
+}
+
+#et_pb_contact_form_0 ::-webkit-input-placeholder {
+	/* Edge */
+	color: $secondary-light !important;
+}
+
+#et_pb_contact_form_0 ::placeholder {
+	/* Edge */
+	color: $secondary-light !important;
+}
+
+#et_pb_contact_form_0 ::-ms-input-placeholder {
+	/* Edge */
+	color: $secondary-light !important;
+}
+
+.et_pb_contact_form_0 .et_pb_button {
+	padding-left: 3em !important;
+	padding-right: 3em !important;
+	margin-top: 20px !important;
+}
