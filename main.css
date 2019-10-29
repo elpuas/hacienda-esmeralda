@@ -15,7 +15,7 @@
 [class*="page-"] h2:before { border-bottom: 3px solid #e2aa06; position: absolute; content: ''; width: 100px; bottom: 0%; left: 0; }
 
 @media (max-width: 980px) { .et_pb_row.et_pb_row_0 h1 { font-size: 2.8rem !important; }
-  .et_pb_row h2, h3 { font-size: 1.5rem !important; }
+  .et_pb_row h2, h3 { font-size: 1.4rem !important; }
   p, span { font-size: 1rem !important; }
   [class*="page-main-collection-section"] .et_pb_row_2.et_pb_row { margin-left: auto !important; margin-right: auto !important; } }
 
