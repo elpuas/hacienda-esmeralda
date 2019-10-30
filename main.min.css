@@ -5,11 +5,11 @@
 :not(.page-home-section-1).et_pb_section_0.et_pb_section{padding-top:119px !important;padding-right:0 !important;padding-bottom:119px !important;padding-left:0 !important}
 :not(.page-home-section-1) .et_pb_row_0.et_pb_row{padding-top:0 !important;padding-right:0 !important;padding-bottom:0 !important;padding-left:0 !important;margin-left:auto !important;margin-right:auto !important}
 #top-menu li.current-menu-item>a,#top-menu li.current-menu-ancestor>a{color:#901a1d}
-[class*="page-"] h2:before{border-bottom:3px solid #e2aa06;position:absolute;content:'';width:100px;bottom:0;left:0}
 .drop-shadow{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.25);box-shadow:0 0 8px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);background-color:#901a1d}
 :root{font-size:18px}
 h1{text-transform:capitalize !important;color:#4d392f;font-family:"Alice",Georgia,"Times New Roman",serif !important;line-height:1}
-h2,h3{font-family:"Open Sans",Arial,sans-serif !important;font-size:2.6rem !important}
+[class*="page-"] h2:before{border-bottom:3px solid #e2aa06;position:absolute;content:'';width:100px;height:2px;bottom:-15px;left:0}
+h2,h3{font-family:"Open Sans",Arial,sans-serif !important;font-size:2.6rem !important;position:relative;margin:0 0 40px}
 h5{font-size:2.6rem;color:white;font-weight:100;font-family:'Times New Roman',Times,serif !important}
 p,li,a,em{font-family:"Open Sans",sans-serif;line-height:1;font-weight:400}
 p{line-height:2;font-size:18px !important}
@@ -115,7 +115,7 @@ h2,h3,h4{color:#901a1d}
 }@media all and (min-width:980px) and (max-width:1440px){a span.shop{margin-right:10px !important}
 .page-home-section-3.et_pb_section .et_pb_row_3 .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough{padding-left:30px;padding-top:30px}
 }@media(max-width:980px){.et_pb_row.et_pb_row_0 h1{font-size:2.8rem !important}
-.et_pb_row h2{font-size:2rem !important}
+.et_pb_row h2{font-size:2rem !important;position:relative;margin:0 0 40px}
 h3{font-size:1.4rem !important}
 p,span{font-size:1rem !important}
 [class*="page-main-collection-section"] .et_pb_row_2.et_pb_row{margin-left:auto !important;margin-right:auto !important}
