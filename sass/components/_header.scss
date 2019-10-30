@@ -1,4 +1,8 @@
-header {}
+header {
+	.et_mobile_menu {
+		border-color: $primary-color;
+	}
+}
 
 a span.shop:after {
 	font-family: 'ETmodules';
