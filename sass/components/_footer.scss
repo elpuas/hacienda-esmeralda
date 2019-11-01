@@ -66,3 +66,16 @@ div.section--footer img {
 	padding-right: 3em !important;
 	margin-top: 20px !important;
 }
+
+.section--footer.et_pb_section_6.et_pb_section,
+.section--footer .et_pb_row_7 {
+	background-color: $primary-color !important;
+}
+
+#footer-bottom {
+	background-color: $secondary--dark;
+}
+
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button {
+	color: $secondary-light !important;
+}
