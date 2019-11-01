@@ -41,7 +41,7 @@ div.section--footer img{max-width:180px}
 #et_pb_contact_form_0 ::-ms-input-placeholder{color:#beac8c !important}
 .et_pb_contact_form_0 .et_pb_button{padding-left:3em !important;padding-right:3em !important;margin-top:20px !important}
 .section--footer.et_pb_section_6.et_pb_section,.section--footer .et_pb_row_7{background-color:#564133 !important}
-#footer-bottom{background-color:#4d392f}
+#footer-bottom{background-color:#4d392f !important}
 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button{color:#beac8c !important}
 span.select_page{display:none !important}
 [class^='page-home-section-'] p{font-size:1rem !important}
