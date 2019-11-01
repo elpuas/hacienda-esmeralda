@@ -1,5 +1,6 @@
 .mobile_nav.opened .mobile_menu_bar:before{content:'\4d'}
 @font-face{font-family:'Northwell';src:url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff2") format("woff2"),url("/wp-content/themes/karlablanco/fonts/NorthwellAlt.woff") format("woff");font-weight:bold;font-style:normal}
+.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title{color:#564133 !important}
 :not(.page-home-section-1,.page-process-section-0) div.et_pb_section.et_pb_section_0{background-color:linear-gradient(90deg,#f4f0e9e6 30%,#f4f0e900 100%) !important;min-height:495px !important;max-height:495px !important}
 :not(.page-home-section-1) div.et_pb_section.et_pb_section_0 h1{font-size:80px;letter-spacing:-3px;line-height:1.1em}
 :not(.page-home-section-1).et_pb_section_0.et_pb_section{padding-top:119px !important;padding-right:0 !important;padding-bottom:119px !important;padding-left:0 !important}
@@ -46,7 +47,6 @@ body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_con
 span.select_page{display:none !important}
 [class^='page-home-section-'] p{font-size:1rem !important}
 .page-home-section-5 h2::before{left:30px !important}
-.et_pb_slider [class^='.et_pb_slide_'] .et_pb_slide .et_pb_slide_description .et_pb_slide_title{color:#564133}
 .page-home-section-1 .et_pb_row{width:100% !important;max-width:100% !important}
 .et-pb-controllers a:hover{color:gray}
 .page-home-section-3 .et_pb_column_3 img{max-width:180px !important}
