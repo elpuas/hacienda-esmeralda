@@ -16,6 +16,7 @@ h5{font-size:2.6rem;color:white;font-weight:500;font-family:"Open Sans",Arial,sa
 p,li,a,em{font-family:"Open Sans",sans-serif;line-height:1;font-weight:400}
 p{line-height:2;font-size:18px !important}
 code{font-family:'Courier New',Courier,monospace}
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button{color:#beac8c !important}
 header .et_mobile_menu{border-color:#564133}
 a span.shop:after{font-family:'ETmodules';content:"\e013";margin-left:10px;margin-top:-4px;color:#564133;display:inline;font-size:24px}
 header #et-top-navigation{background-color:white}
