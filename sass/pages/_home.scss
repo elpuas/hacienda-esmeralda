@@ -147,14 +147,12 @@ li.centered-inline-logo-wrap {
 	padding: 10% 0%;
 }
 
-.page-home-section-1 a.et-pb-arrow-next {
-	font-size: 130px;
+.page-home-section-1 a.et-pb-arrow-next,
+.page-home-section-1 a.et-pb-arrow-prev {
+	font-size: 75px;
 	z-index: 9;
 }
 
-.page-home-section-1 a.et-pb-arrow-prev {
-	font-size: 130px;
-}
 
 .page-home-section-2 {
 	height: 650px;

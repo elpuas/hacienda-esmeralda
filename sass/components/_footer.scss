@@ -49,16 +49,19 @@ div.section--footer img {
 #et_pb_contact_form_0 ::-webkit-input-placeholder {
 	/* Edge */
 	color: $secondary-light !important;
+	font-family: "Open Sans", sans-serif;
 }
 
 #et_pb_contact_form_0 ::placeholder {
 	/* Edge */
 	color: $secondary-light !important;
+	font-family: "Open Sans", sans-serif;
 }
 
 #et_pb_contact_form_0 ::-ms-input-placeholder {
 	/* Edge */
 	color: $secondary-light !important;
+	font-family: "Open Sans", sans-serif;
 }
 
 .et_pb_contact_form_0 .et_pb_button {
@@ -69,9 +72,16 @@ div.section--footer img {
 
 .section--footer.et_pb_section_6.et_pb_section,
 .section--footer .et_pb_row_7,
-.section--footer .et_pb_row_6 {
+.section--footer .et_pb_row_6,
+.section--footer .et_pb_row_3,
+.section--footer.et_pb_section_4.et_pb_section,
+.section--footer.et_pb_section_3.et_pb_section,
+.section--footer .et_pb_row_2,
+.section--footer .et_pb_row_4 {
 	background-color: $primary-color !important;
 }
+
+
 
 #main-footer #footer-bottom {
 	background-color: $secondary--dark !important;
