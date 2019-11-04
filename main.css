@@ -136,7 +136,7 @@ span.select_page { display: none !important; }
   .page-home-section-4 .et_pb_image_2 { margin-left: 0px !important; }
   .page-home-section-5.et_pb_section_3 { height: 100%; }
   .page-home-section-5 .rows-black .page-home-section-5--text p { font-size: 15px; }
-  div.et_pb_section.page-home-section-5 { padding: 0; }
+  div.et_pb_section.page-home-section-5 { padding: 1; }
   .page-home-section-5 a.et_pb_button { padding: 8px 28px; }
   .page-home-section-6 .et_pb_row_6.et_pb_row { margin-right: 0px !important; margin-left: 0px !important; }
   .page-home-section-6 .et_pb_text_inner img { width: 100%; }
