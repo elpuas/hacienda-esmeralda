@@ -30,12 +30,12 @@ div.section--footer img {
 	max-width: 180px;
 }
 
-#et_pb_contact_form_0 input#et_pb_contact_name_0 {
+#et_pb_contact_form_0 input[id*="et_pb_contact_"] {
 	background-color: #0000;
 	border-bottom: $secondary-light 1px solid;
 }
 
-#et_pb_contact_form_0 input#et_pb_contact_email_0 {
+#et_pb_contact_form_0 input[id*="et_pb_contact_"] {
 	background-color: #0000;
 	border-bottom: $secondary-light 1px solid;
 }

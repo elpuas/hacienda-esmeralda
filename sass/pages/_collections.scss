@@ -24,6 +24,12 @@ h4 {
 }
 
 
+.page-collection-section-0 .et_pb_section_0.et_pb_section {
+	padding-top: 75px !important;
+	padding-right: 0px !important;
+	padding-bottom: 75px !important;
+	padding-left: 0px !important;
+}
 
 .page-main-collection-section-0 a.et_pb_button {
 	border: 1px solid $secondary-light;
@@ -65,4 +71,8 @@ h4 {
 	background-color: $primary-color;
 	color: $white-color;
 	padding: 8px 60px;
+}
+
+.page-collection-section-0 img {
+	width: 450px;
 }
