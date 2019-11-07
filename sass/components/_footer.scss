@@ -31,7 +31,9 @@ div.section--footer img {
 	max-width: 180px;
 }
 
-
+button.et_pb_contact_submit.et_pb_button {
+	color: $secondary-light;
+}
 
 [id*="et_pb_contact_form_"] [id*="et_pb_contact_"] {
 	background-color: #0000;
