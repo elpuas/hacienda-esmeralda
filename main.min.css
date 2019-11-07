@@ -32,7 +32,8 @@ body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_con
 div.section--footer p{color:white !important}
 div.section--footer a{font-size:16px;color:#beac8c !important}
 div.section--footer img{max-width:180px}
-#et_pb_contact_form_0 [id*="et_pb_contact_"]{background-color:#0000;border-bottom:#beac8c 1px solid}
+#et_pb_contact_form_0 input#et_pb_contact_name_0{background-color:#0000;border-bottom:#beac8c 1px solid}
+#et_pb_contact_form_0 input#et_pb_contact_email_0{background-color:#0000;border-bottom:#beac8c 1px solid}
 #et_pb_contact_form_0 .et_pb_contact p input{color:#beac8c;font-family:'Times New Roman',Times,serif;font-size:1rem}
 #et_pb_contact_form_0 ::-webkit-input-placeholder{color:#beac8c !important;font-family:"Open Sans",sans-serif}
 #et_pb_contact_form_0 ::-moz-placeholder{color:#beac8c !important;font-family:"Open Sans",sans-serif}
