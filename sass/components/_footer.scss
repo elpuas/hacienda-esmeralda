@@ -13,7 +13,8 @@ div.section--footer button.et_pb_contact_submit.et_pb_button:hover {
 	background-color: $secondary-light !important;
 }
 
-body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover {
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover,
+body #page-container .et_pb_section .et_pb_contact_form_1.et_pb_contact_form_container.et_pb_module .et_pb_button:hover {
 	color: $primary-color !important;
 }
 
@@ -32,36 +33,36 @@ div.section--footer img {
 
 
 
-#et_pb_contact_form_0 [id*="et_pb_contact_"] {
+[id*="et_pb_contact_form_"] [id*="et_pb_contact_"] {
 	background-color: #0000;
 	border-bottom: $secondary-light 1px solid;
 }
 
-#et_pb_contact_form_0 .et_pb_contact p input {
+[id*="et_pb_contact_form_"] .et_pb_contact p input {
 	color: $secondary-light;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1rem;
 }
 
-#et_pb_contact_form_0 ::-webkit-input-placeholder {
+[id*="et_pb_contact_form_"] ::-webkit-input-placeholder {
 	/* Edge */
 	color: $secondary-light !important;
 	font-family: "Open Sans", sans-serif;
 }
 
-#et_pb_contact_form_0 ::placeholder {
+[id*="et_pb_contact_form_"] ::placeholder {
 	/* Edge */
 	color: $secondary-light !important;
 	font-family: "Open Sans", sans-serif;
 }
 
-#et_pb_contact_form_0 ::-ms-input-placeholder {
+[id*="et_pb_contact_form_"] ::-ms-input-placeholder {
 	/* Edge */
 	color: $secondary-light !important;
 	font-family: "Open Sans", sans-serif;
 }
 
-.et_pb_contact_form_0 .et_pb_button {
+[class*="et_pb_contact_form_"] .et_pb_button {
 	padding-left: 3em !important;
 	padding-right: 3em !important;
 	margin-top: 20px !important;
@@ -84,6 +85,7 @@ div.section--footer img {
 	background-color: $secondary--dark !important;
 }
 
-body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button {
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button,
+body #page-container .et_pb_section .et_pb_contact_form_1.et_pb_contact_form_container.et_pb_module .et_pb_button {
 	color: $secondary-light !important;
 }
