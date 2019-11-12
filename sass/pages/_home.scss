@@ -26,23 +26,16 @@ span.select_page {
 	max-width: 180px !important;
 }
 
-@media all and (min-width: 980px) and (max-width: 1440px) {
-	a span.shop {
-		margin-right: 10px !important;
-	}
 
-	.page-home-section-3.et_pb_section .et_pb_row_3 .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
-		padding-left: 30px;
-		padding-top: 30px;
-	}
+
+.page-home-section-3.et_pb_section .et_pb_row_3 .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+	padding-left: 30px;
+	padding-top: 30px;
+}
 
 }
 
 @media all and (min-width: 368px) and (max-width: 760px) {
-	a span.shop {
-		margin-left: 10px !important;
-	}
-
 	[class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
 		left: 0%;
 		right: 0;
