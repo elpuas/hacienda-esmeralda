@@ -45,6 +45,12 @@
 	margin-top: 20px;
 }
 
+.page-process-section-1 h2::before {
+	border-bottom: 3px solid #beac8c;
+	left: auto !important;
+	right: 0 !important;
+}
+
 @media (max-width: 980px) {
 	.page-process-section-0 .et_pb_column .et_pb_module {
 		margin-bottom: 0px;
