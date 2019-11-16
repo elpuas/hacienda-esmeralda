@@ -45,7 +45,7 @@ button.et_pb_contact_submit.et_pb_button{color:#beac8c}
 .section--footer.et_pb_section_6.et_pb_section,.section--footer .et_pb_row_7,.section--footer .et_pb_row_6,.section--footer .et_pb_row_3,.section--footer.et_pb_section_4.et_pb_section,.section--footer.et_pb_section_3.et_pb_section,.section--footer .et_pb_row_2,.section--footer .et_pb_row_4{background-color:#564133 !important}
 #main-footer #footer-bottom{background-color:#4d392f !important}
 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button,body #page-container .et_pb_section .et_pb_contact_form_1.et_pb_contact_form_container.et_pb_module .et_pb_button{color:#beac8c !important}
-.et_pb_section.et_pb_section_4.section--footer.et_pb_with_background.et_section_regular{border-top:#beac8c solid 2px}
+.et_pb_section.section--footer{border-top:#beac8c solid 2px;z-index:5}
 span.select_page{display:none !important}
 [class^='page-home-section-'] p{font-size:1rem !important}
 .page-home-section-5 h2::before{left:30px !important}

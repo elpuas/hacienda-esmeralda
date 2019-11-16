@@ -92,6 +92,7 @@ body #page-container .et_pb_section .et_pb_contact_form_1.et_pb_contact_form_con
 	color: $secondary-light !important;
 }
 
-.et_pb_section.et_pb_section_4.section--footer.et_pb_with_background.et_section_regular {
+.et_pb_section.section--footer {
 	border-top: #beac8c solid 2px;
+	z-index: 5;
 }
