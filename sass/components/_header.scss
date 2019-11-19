@@ -174,8 +174,8 @@ li.h-esmeralda-logo {
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-post_type.quadmenu-has-image-thumbnail>a>.quadmenu-item-content>img {
-	max-width: 125px;
-	margin: 0;
+	max-width: 125px !important;
+	margin: 0 !important;
 
 }
 
@@ -185,6 +185,21 @@ li.h-esmeralda-logo {
     width: 100%;
 }
 
+#quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover, #quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link.open {
+    background-color: transparent !important;
+}
 
+div[id*="dropdown-"] ul {
+    padding: 0 !important;
+}
 
+span.quadmenu-item-content {
+    text-align: center !important;
+}
 
+#quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
+    border-color: #3b2315 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 5px !important;
+    margin-top: 5px !important;
+}
