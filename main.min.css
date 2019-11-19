@@ -25,6 +25,14 @@ header li p{margin:0 10px}
 span.mobile_menu_bar.mobile_menu_bar_toggle:before{background:#fff;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0}
 span.select_page,span.mobile_menu_bar.mobile_menu_bar_toggle:before,.mobile_menu_bar:before{color:#564133 !important}
 .mobile_menu_bar:before{font-weight:900}
+header .container{max-width:1240px}
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav{position:relative !important}
+#quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav>li{vertical-align:initial !important;padding-top:25px !important}
+span.quadmenu-icon.dashicons.dashicons-admin-site.hover.t_1000:before{content:'' !important}
+li.h-esmeralda-logo{background:url("http://haciendaesmeralda.test/wp-content/uploads/2019/11/logo-largo.png") !important;width:320px !important;height:50px !important;background-size:contain !important;background-repeat:no-repeat !important;background-position:center top !important}
+.et_header_style_split #et-top-navigation{padding-top:15px !important}
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-post_type.quadmenu-has-image-thumbnail>a>.quadmenu-item-content>img{max-width:125px;margin:0}
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-post_type>a>.quadmenu-item-content>.quadmenu-text{display:block;text-align:center !important;width:100%}
 footer #footer-bottom .et-social-icon a{color:white}
 footer .et-social-skype a.icon:before{content:'\e0a2'}
 div.section--footer button.et_pb_contact_submit.et_pb_button:hover{background-color:#beac8c !important}
@@ -160,4 +168,10 @@ div.et_pb_section.page-home-section-5{padding:1}
 .et_pb_row.et_pb_row_6.page-home-section--row{width:90%;padding:0 10%}
 .page-map-section-4 .et_pb_code_0{min-height:696px;padding-right:0;padding-left:0;margin-right:0 !important;margin-left:0 !important}
 .page-process-section-0 .et_pb_column .et_pb_module{margin-bottom:0}
+}@media(max-width:900px){et_header_style_split #main-header .container,.et_header_style_split #main-header .logo_container{text-align:left !important}
+.et_header_style_split .et_menu_container .mobile_menu_bar{top:-75px !important}
+li.h-esmeralda-logo{display:none !important}
+.quadmenu-item-widget.widget.widget_custom_html{display:none}
+#main-header{height:85px}
+.et_header_style_split .et_mobile_menu{top:-4px}
 }
