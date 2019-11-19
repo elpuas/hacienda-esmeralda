@@ -1,0 +1,27 @@
+.card {
+	border: 1px solid lightgray;
+	box-shadow: 0 0 6px rgba(211, 211, 211, 0.5);
+	padding: 1rem;
+	margin-bottom: 2rem !important;
+	h2  {
+
+	}
+
+	p {
+
+		a {
+			@include button($secondary-light, $primary-color, 1em 3em, 3px );
+			display: block;
+			margin: 0 auto 1.5em;
+			text-align: center;
+			&:hover {
+				background-color: $secondary-light;
+				color: $primary-color;
+			}
+		}
+	}
+
+	img {
+
+	}
+}
