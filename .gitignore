@@ -66,3 +66,12 @@ assets/bower_components/*
 .idea/
 library/vendors/composer
 assets/img/.DS_Store
+
+#Avoid Assets Generated Assets
+/main.css
+/main.min.css
+/main.css.map
+/custom.js
+/custom.min.js
+/cache/
+
