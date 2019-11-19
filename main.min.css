@@ -76,7 +76,7 @@ li.centered-inline-logo-wrap{padding:0;margin:-3% 30px 0 0 !important}
 .page-home-section-1.et_pb_section{padding:0}
 .page-home-section-1 .et_pb_slide_description,.et_pb_slider_fullwidth_off .et_pb_slide_description{padding:10% 0}
 .page-home-section-1 a.et-pb-arrow-next,.page-home-section-1 a.et-pb-arrow-prev{font-size:75px;z-index:9}
-.page-home-section-2{min-height:650px;padding-top:3rem;padding-bottom:3rem}
+.page-home-section-2{min-height:650px;padding-top:3rem !important;padding-bottom:3rem !important}
 .page-home-section-2 .text.et_pb_text_align_left div{color:black;margin:25% 10%;padding:10% 0;font-size:20px;text-align:left;font-weight:900 !important}
 .page-home-section-3.et_pb_section{padding:0;background-color:#564133}
 .page-home-section-3.et_pb_section .et_pb_row_2 .et_pb_image_0{padding-top:10px;text-align:center}
