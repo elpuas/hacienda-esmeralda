@@ -33,7 +33,21 @@ span.select_page {
 	padding-top: 30px;
 }
 
+.page-home-section-0 h1 {
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif !important;
+	font-size: 2.8rem !important;
+	margin-top: 2%;
+}
 
+.page-home-section-0 p {
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif !important;
+	font-size: 1rem !important;
+	font-weight: 400;
+	width: 80%;
+	margin: 0 auto;
+}
 
 @media all and (min-width: 368px) and (max-width: 760px) {
 	[class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
