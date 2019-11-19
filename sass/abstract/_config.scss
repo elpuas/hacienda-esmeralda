@@ -2,19 +2,20 @@
 $BASE_URL: '/wp-content/themes/karlablanco';
 
 // Theme Colors
-$primary-color:      #f6eeec;
-$secondary-color:    #b9a89e;
-$purple-color:       #401b60;    
-$black-color:        black;
-$white-color:        white;
+$primary-color: #564133;
+$secondary-color: #a36209;
+$secondary--dark: #4D392F;
+$secondary-light: #BEAC8C;
+$black-color: black;
+$white-color: white;
 
 // Theme Font
 @font-face {
-    font-family: 'Northwell';
-    src: url('#{$BASE_URL}/fonts/NorthwellAlt.woff2') format('woff2'),
-        url('#{$BASE_URL}/fonts/NorthwellAlt.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Northwell';
+	src: url('#{$BASE_URL}/fonts/NorthwellAlt.woff2') format('woff2'),
+	url('#{$BASE_URL}/fonts/NorthwellAlt.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 // @font-face {
@@ -24,49 +25,165 @@ $white-color:        white;
 //     font-weight: normal;
 //     font-style: normal;
 // }
+.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title {
+	color: $primary-color !important;
+}
 
-$brand-primary-font:    'Northwell';
-$brand-secondary-font:  'Open Sans', sans-serif;
+
+$brand-primary-font: 'Alice',
+Georgia,
+"Times New Roman",
+serif !important;
+$brand-secondary-font: 'Open Sans',
+sans-serif;
+
+:not(.page-home-section-1, .page-process-section-0) div.et_pb_section.et_pb_section_0 {
+	background-color: linear-gradient(90deg, #f4f0e9e6 30%, #f4f0e900 100%) !important;
+	min-height: 495px !important;
+	max-height: 495px !important;
+}
+
+:not(.page-home-section-1) div.et_pb_section.et_pb_section_0 h1 {
+	font-size: 80px;
+	letter-spacing: -3px;
+	line-height: 1.1em;
+}
+
+:not(.page-home-section-1):not(.page-collection-section-0).et_pb_section_0.et_pb_section {
+	padding-top: 119px !important;
+	padding-right: 0px !important;
+	padding-bottom: 119px !important;
+	padding-left: 0px !important;
+	min-height: 475px;
+}
+
+:not(.page-home-section-1) .et_pb_row_0.et_pb_row {
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+#top-menu li.current-menu-item>a,
+#top-menu li.current-menu-ancestor>a {
+	color: $primary-color;
+}
+
+
+@media (max-width: 980px) {
+	.et_pb_row.et_pb_row_0 h1 {
+		font-size: 2.8rem !important;
+	}
+
+	.et_pb_row h2 {
+		font-size: 2rem !important;
+		position: relative;
+		margin: 0 0 40px;
+	}
+
+	h3 {
+		font-size: 1.4rem !important;
+	}
+
+	h5 {
+		font-size: 2rem !important;
+		margin: 0 0 20px;
+	}
+
+	p,
+	span {
+		font-size: 1rem !important;
+	}
+
+	[class*="page-main-collection-section"] .et_pb_row_2.et_pb_row {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+
+}
+
 
 // Breakpoints
-$m:     1070px;
-$sm:    900px;
-$xs:    425px;
+$m: 1070px;
+$sm: 900px;
+$xs: 425px;
 
 // Dynamic Classes
 .drop-shadow {
-    box-shadow: 0 0 8px rgba(0, 0,  0, .25);
-    transition: all .2s ease-in-out;
-    transform: scale(1.05);
-    background-color: $primary-color;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+	transition: all .2s ease-in-out;
+	transform: scale(1.05);
+	background-color: $primary-color;
 }
 
 // Typos
 
 :root {
-    font-size: 16px;
-}
-h1,h2,h3 {
-    font-family: $brand-primary-font;
-    line-height: 1;
+	font-size: 18px;
 }
 
-h2 {
-    font-size: 3.35rem;
+
+h1 {
+	text-transform: capitalize !important;
+	color: $secondary--dark;
+	font-family: $brand-primary-font;
+	line-height: 1;
 }
 
-p, li, a, em {
-    font-family: $brand-secondary-font;
-    line-height: 1;
-    font-weight: 500;
+[class*="page-"] h2:before {
+	border-bottom: 3px solid $secondary-light;
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 2px;
+	bottom: -15px;
+	left: 0;
+
+}
+
+h2,
+h3 {
+	font-family: "Open Sans", Arial, sans-serif !important;
+	font-size: 2.6rem !important;
+	position: relative;
+	margin: 0 0 40px;
+}
+
+.et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_slide_description .et_pb_slide_title,
+.home-section6-title h2 {
+	color: $primary-color !important;
+	text-align: left !important;
+}
+
+h5 {
+	font-size: 2.6rem;
+	color: $white-color;
+	font-weight: 500;
+	font-family: "Open Sans", Arial, sans-serif !important;
+	margin: 0 0 20px;
+}
+
+p,
+li,
+a,
+em {
+	font-family: $brand-secondary-font;
+	line-height: 1;
+	font-weight: 400;
 }
 
 p {
-    line-height: 2;
+	line-height: 2;
+	font-size: 18px !important;
 }
 
 code {
-    font-family: 'Courier New', Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 
-
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button {
+	color: $secondary-light !important;
+}

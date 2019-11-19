@@ -9,18 +9,7 @@
 
 // Pages
 @import 'pages/home';
+@import 'pages/collections';
 @import 'pages/about';
-@import 'pages/contact';
-@import 'pages/book';
-@import 'pages/historias';
-@import 'pages/404';
-
-// Post
-@import 'pages/blog';
-@import 'pages/single-post';
-
-// WooCommerce
-@import 'pages/shop';
-@import 'pages/product';
-@import 'pages/cart';
-@import 'pages/my-account';
+@import 'pages/_farms';
+@import 'pages/_process';

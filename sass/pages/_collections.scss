@@ -1,0 +1,78 @@
+h2,
+h3,
+h4 {
+	color: $primary-color;
+}
+
+[class*="page-collection-section-3"] p,
+[class*="page-collection-section-3"] h2 {
+	color: $white-color;
+}
+
+.page-collection-section-3 a.et_pb_button {
+	border: 1px solid $secondary-light;
+	background-color: $secondary-light;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-collection-section-3 a.et_pb_button:hover {
+	border: 1px solid $primary-color;
+	background-color: $primary-color;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+
+.page-collection-section-0 .et_pb_section_0.et_pb_section {
+	padding-top: 75px !important;
+	padding-right: 0px !important;
+	padding-bottom: 75px !important;
+	padding-left: 0px !important;
+}
+
+.page-main-collection-section-0 a.et_pb_button {
+	border: 1px solid $secondary-light;
+	background-color: $secondary-light;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-main-collection-section-1 h2 {
+	text-align: left;
+}
+
+[class*="page-collection-section-"] h1,
+[class*="page-main-collection-section-"] h1 {
+	color: #4d392f !important;
+}
+
+.page-main-collection-section-3 h2:before {
+	margin: 0 27% !important;
+}
+
+.page-main-collection-section-0 a.et_pb_button:hover {
+	border: 1px solid $primary-color;
+	background-color: $primary-color;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+
+.page-main-collection-section-3 a.et_pb_button:hover {
+	border: 1px solid $secondary-light;
+	background-color: $secondary-light;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-main-collection-section-3 a.et_pb_button {
+	border: 1px solid $primary-color;
+	background-color: $primary-color;
+	color: $white-color;
+	padding: 8px 60px;
+}
+
+.page-collection-section-0 img {
+	width: 450px;
+}
