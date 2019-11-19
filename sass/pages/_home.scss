@@ -55,6 +55,7 @@ span.select_page {
 		right: 0;
 		margin: 0 auto;
 		margin-bottom: 7px !important;
+		text-align: center !important;
 	}
 }
 
@@ -236,7 +237,7 @@ div h2 {
 }
 
 
-.page-home-section-5 .rows-black .et_pb_column.et_pb_column_1_2.et_pb_column_8.et_pb_css_mix_blend_mode_passthrough {
+.page-home-section-5 .page-home-textbox-left {
 	background-color: $white-color;
 	padding: 5% 0;
 }
