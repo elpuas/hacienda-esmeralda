@@ -67,11 +67,18 @@ assets/bower_components/*
 library/vendors/composer
 assets/img/.DS_Store
 
-#Avoid Assets Generated Assets
+#Production Build
+/sass/
+/sass/*/*.scss
+/scripts/
 /main.css
-/main.min.css
 /main.css.map
 /custom.js
-/custom.min.js
 /cache/
+/.editorconfig
+/.eslintignore
+/.eslintrc.js
+/package-lock.json
+/package.json
+/wpgulp.config.js
 
