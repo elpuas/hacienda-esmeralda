@@ -77,6 +77,6 @@ assets/img/.DS_Store
 
 
 #Gianko Custom
-wpgulp.config.js
-wpgulp.config.js/
+*wpgulp.config.js
+*wpgulp.config.js/
 /wpgulp.config.js
