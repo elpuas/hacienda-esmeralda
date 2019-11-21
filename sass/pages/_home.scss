@@ -36,6 +36,7 @@ span.select_page {
 .page-home-section-0 h1 {
 	text-align: center;
 	font-family: "Open Sans", Arial, sans-serif !important;
+	font-weight: 300;
 	font-size: 2.8rem !important;
 	margin-top: 2%;
 }
@@ -44,6 +45,8 @@ span.select_page {
 	text-align: center;
 	font-family: "Open Sans", Arial, sans-serif !important;
 	font-size: 1rem !important;
+	color: #333;
+	line-height: 1.5;
 	font-weight: 400;
 	width: 80%;
 	margin: 0 auto;
@@ -60,6 +63,19 @@ span.select_page {
 }
 
 @media (max-width: 980px) {
+
+	.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title {
+		text-align: center !important;
+	}
+
+	.page-home-section-0 h1 {
+		font-size: 2rem !important;
+	}
+
+	.page-home-section-0 {
+		margin-top: 10%;
+		margin-bottom: -40%;
+	}
 
 	.page-home-section-2 p {
 		font-weight: 500 !important;

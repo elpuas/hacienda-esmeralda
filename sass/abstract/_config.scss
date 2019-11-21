@@ -72,7 +72,7 @@ sans-serif;
 
 
 @media (max-width: 980px) {
-	.et_pb_row.et_pb_row_0 h1 {
+	:not(.page-home-section-0 h1) .et_pb_row.et_pb_row_0 h1 {
 		font-size: 2.8rem !important;
 	}
 

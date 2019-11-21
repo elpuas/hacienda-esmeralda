@@ -70,8 +70,8 @@ span.select_page{display:none !important}
 .et-pb-controllers a:hover{color:gray}
 .page-home-section-3 .et_pb_column_3 img{max-width:180px !important}
 .page-home-section-3.et_pb_section .et_pb_row_3 .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough{padding-left:30px;padding-top:30px}
-.page-home-section-0 h1{text-align:center;font-family:"Open Sans",Arial,sans-serif !important;font-size:2.8rem !important;margin-top:2%}
-.page-home-section-0 p{text-align:center;font-family:"Open Sans",Arial,sans-serif !important;font-size:1rem !important;font-weight:400;width:80%;margin:0 auto}
+.page-home-section-0 h1{text-align:center;font-family:"Open Sans",Arial,sans-serif !important;font-weight:300;font-size:2.8rem !important;margin-top:2%}
+.page-home-section-0 p{text-align:center;font-family:"Open Sans",Arial,sans-serif !important;font-size:1rem !important;color:#333;line-height:1.5;font-weight:400;width:80%;margin:0 auto}
 li.centered-inline-logo-wrap{padding:0;margin:-3% 30px 0 0 !important}
 .page-home-section-1--title{display:none}
 .page-home-section-1.et_pb_section{padding:0}
@@ -145,7 +145,7 @@ h2,h3,h4{color:#564133}
 @media all and (min-width:368px) and (max-width:760px){a span.shop{margin-left:10px !important}
 [class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before{left:0;right:0;margin:0 auto;margin-bottom:7px !important;text-align:center !important}
 }@media all and (min-width:980px) and (max-width:1440px){a span.shop{margin-right:10px !important;top:-8px !important;position:absolute}
-}@media(max-width:980px){.et_pb_row.et_pb_row_0 h1{font-size:2.8rem !important}
+}@media(max-width:980px){:not(.page-home-section-0 h1) .et_pb_row.et_pb_row_0 h1{font-size:2.8rem !important}
 .et_pb_row h2{font-size:2rem !important;position:relative;margin:0 0 40px}
 :not(.et-core-frame) h3{font-size:1.4rem !important}
 :not(.et-core-frame) h5{font-size:2rem !important;margin:0 0 20px}
@@ -161,6 +161,9 @@ p,span{font-size:1rem !important}
 .mobile_menu_bar:before{font-size:3rem}
 #main-header,#main-header .et_mobile_menu{background-color:white !important;color:#564133}
 a span.shop:after{font-weight:100}
+.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title{text-align:center !important}
+.page-home-section-0 h1{font-size:2rem !important}
+.page-home-section-0{margin-top:10%;margin-bottom:-40%}
 .page-home-section-2 p{font-weight:500 !important}
 .page-home-section-2.et_pb_with_background.et_section_regular{background-position-x:right !important}
 .page-home-section-2 .text.et_pb_text_align_left div{color:black !important;margin:0;padding:35% 20px}
