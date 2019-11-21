@@ -19,10 +19,9 @@
     max-height: 495px !important
 }
 
-:not(.page-home-section-1) div.et_pb_section.et_pb_section_0 h1 {
+:not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1 {
     font-size: 80px;
-    letter-spacing: -3px;
-    line-height: 1.1em
+    letter-spacing: -3px
 }
 
 :not(.page-home-section-1):not(.page-collection-section-0).et_pb_section_0.et_pb_section {
@@ -64,8 +63,7 @@
 :not(.et-core-frame) h1 {
     text-transform: capitalize !important;
     color: #4d392f;
-    font-family: "Open Sans", Arial, sans-serif !important;
-    line-height: 1
+    font-family: "Open Sans", Arial, sans-serif !important
 }
 
 [class*="page-"] h2:before {
@@ -74,13 +72,12 @@
     content: '';
     width: 100px;
     height: 2px;
-    bottom: -15px;
+    bottom: -10px;
     left: 0
 }
 
-:not(.et-core-frame) h2,
-:not(.et-core-frame) h3 {
-    font-family: "Open Sans", Arial, sans-serif !important;
+:not(.et-core-frame, .et-fb-settings) h2,
+:not(.et-core-frame, .et-fb-settings) h3 {
     font-size: 2.6rem !important;
     position: relative;
     margin: 0 0 40px
@@ -110,7 +107,7 @@ em {
 }
 
 p {
-    line-height: 2;
+    line-height: 1.5;
     font-size: 18px !important
 }
 
@@ -120,6 +117,12 @@ code {
 
 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button {
     color: #beac8c !important
+}
+
+h1,
+h2 {
+    font-family: "Open Sans", Arial, sans-serif !important;
+    margin: 0 0 40px
 }
 
 header .et_mobile_menu {
@@ -401,21 +404,23 @@ span.select_page {
 
 .page-home-section-0 h1 {
     text-align: center;
-    font-family: "Open Sans", Arial, sans-serif !important;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 2.8rem !important;
     margin-top: 2%
 }
 
 .page-home-section-0 p {
     text-align: center;
-    font-family: "Open Sans", Arial, sans-serif !important;
     font-size: 1rem !important;
     color: #333;
     line-height: 1.5;
     font-weight: 400;
     width: 80%;
     margin: 0 auto
+}
+
+.et_pb_slide_content {
+    margin-top: 2rem
 }
 
 li.centered-inline-logo-wrap {
@@ -756,20 +761,15 @@ h4 {
 }
 
 .page-farms-section-0 h1 {
-    letter-spacing: -3px;
-    line-height: 1.1em
+    line-height: 1.5em
 }
 
 .page-farms-section-1 h2 {
-    color: #564133;
-    letter-spacing: -3px;
-    line-height: 1.1em
+    color: #564133
 }
 
 .page-farms-section-2 h2 {
-    color: #beac8c;
-    letter-spacing: -3px;
-    line-height: 1.1em
+    color: #beac8c
 }
 
 .page-farms-section-2 p {
@@ -865,14 +865,6 @@ h4 {
         margin-bottom: 7px !important;
         text-align: center !important
     }
-
-    [class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        margin-bottom: 7px !important;
-        text-align: center !important
-    }
 }
 
 @media all and (min-width:980px) and (max-width:1440px) {
@@ -884,22 +876,22 @@ h4 {
 }
 
 @media(max-width:980px) {
-    :not(.page-home-section-0 h1) .et_pb_row.et_pb_row_0 h1 {
-        font-size: 2.8rem !important
+    :not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1 {
+        font-size: 2.5rem
     }
 
-    .et_pb_row h2 {
-        font-size: 2rem !important;
+    :not(.et-core-frame) [class*="page-"] .et_pb_row h2 {
+        font-size: 1.8rem !important;
         position: relative;
         margin: 0 0 40px
     }
 
-    :not(.et-core-frame) h3 {
-        font-size: 1.4rem !important
+    :not(.et-core-frame, .et-fb-settings) [class*="page-"] h3 {
+        font-size: 1.8rem !important
     }
 
     :not(.et-core-frame) h5 {
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
         margin: 0 0 20px
     }
 
@@ -956,6 +948,14 @@ h4 {
 
     a span.shop:after {
         font-weight: 100
+    }
+
+    [class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 7px !important;
+        text-align: center !important
     }
 
     .et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title {
