@@ -155,6 +155,7 @@ h2,h3,h4{color:#564133}
 [class*="page-home-section-1"] div.et_pb_slide_description h2.et_pb_slide_title:before{left:0;right:0;margin:0 auto;margin-bottom:7px !important;text-align:center !important}
 }@media all and (min-width:980px) and (max-width:1440px){a span.shop{margin-right:10px !important;top:-8px !important;position:absolute}
 }@media(max-width:980px){:not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1{font-size:2.5rem}
+.et-pb-arrow-next:before,.et-pb-arrow-prev::before{display:none}
 :not(.et-core-frame) [class*="page-"] .et_pb_row h2{font-size:1.8rem !important;position:relative;margin:0 0 40px}
 :not(.et-core-frame,.et-fb-settings) [class*="page-"] h3{font-size:1.8rem !important}
 :not(.et-core-frame) h5{font-size:1.8rem !important;margin:0 0 20px}
