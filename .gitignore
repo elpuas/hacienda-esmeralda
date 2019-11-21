@@ -78,4 +78,4 @@ assets/img/.DS_Store
 
 #Gianko Custom
 .gitignore/
-/wpgulp.config.js
+*gulp.config.js
