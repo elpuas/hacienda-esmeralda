@@ -77,4 +77,5 @@ assets/img/.DS_Store
 
 
 #Gianko Custom
-*.config.js
+.gitignore/
+*gulp.config.js
