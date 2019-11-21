@@ -75,7 +75,9 @@ li.centered-inline-logo-wrap {
 
 
 .page-home-section-2 {
-	height: 650px;
+	min-height: 650px;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .page-home-section-2 .text.et_pb_text_align_left div {
