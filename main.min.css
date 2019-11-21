@@ -87,6 +87,13 @@ div h2{position:relative}
 .page-home-section-6 img{max-width:850px;width:100%}
 .page-home-section-6 a.et_pb_button{margin:5% 0 0 0}
 .page-home-section-6 .et_pb_button_module_wrapper.et_pb_button_3_wrapper{margin-top:8%;clear:both}
+.page-home-cards-icon{width:72px;height:72px;border:5px solid #fff;border-radius:50%;text-align:center;line-height:60px;font-size:35px;background-color:#efc963;position:absolute;top:-36px;right:0;left:0;margin:0 auto;z-index:99}
+.page-home-cards-icon svg{color:#fff;width:30px;height:30px}
+.page-home-cards-left,.page-home-cards-right{max-width:422px;background-color:#fff;height:500px;display:block;margin-bottom:5%}
+.et_pb_section_2.et_pb_section.page-home-section-cards{background-color:#f7f7f7 !important}
+.et_pb_row.et_pb_row_2.page-home-cards,.et_pb_row.et_pb_row_3.page-home-cards{width:70%}
+.page-home-cards-text{margin:30px 50px}
+a.page-home-cards-buttom{width:80%;background-color:#beac8c;color:#564133;border:1px solid #beac8c}
 h2,h3,h4{color:#564133}
 [class*="page-collection-section-3"] p,[class*="page-collection-section-3"] h2{color:white}
 .page-collection-section-3 a.et_pb_button{border:1px solid #beac8c;background-color:#beac8c;color:white;padding:8px 60px}
@@ -145,6 +152,8 @@ p,span{font-size:1rem !important}
 .mobile_menu_bar:before{font-size:3rem}
 #main-header,#main-header .et_mobile_menu{background-color:white !important;color:#564133}
 a span.shop:after{font-weight:100}
+.et_pb_row.et_pb_row_2.page-home-cards,.et_pb_row.et_pb_row_3.page-home-cards{width:90%}
+.page-home-cards-left,.page-home-cards-right{margin-bottom:20%}
 .page-home-section-2 p{font-weight:500 !important}
 .page-home-section-2.et_pb_with_background.et_section_regular{background-position-x:right !important}
 .page-home-section-2 .text.et_pb_text_align_left div{color:black !important;margin:0;padding:35% 20px}
