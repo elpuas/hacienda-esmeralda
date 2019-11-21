@@ -45,7 +45,6 @@ sans-serif;
 :not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1 {
 	font-size: 80px;
 	letter-spacing: -3px;
-	line-height: 1.1em;
 }
 
 :not(.page-home-section-1):not(.page-collection-section-0).et_pb_section_0.et_pb_section {
@@ -78,17 +77,17 @@ sans-serif;
 
 
 	:not(.et-core-frame) [class*="page-"] .et_pb_row h2 {
-		font-size: 2rem !important;
+		font-size: 1.8rem !important;
 		position: relative;
 		margin: 0 0 40px;
 	}
 
 	:not(.et-core-frame, .et-fb-settings) [class*="page-"] h3 {
-		font-size: 1.4rem !important;
+		font-size: 1.8rem !important;
 	}
 
 	:not(.et-core-frame) h5 {
-		font-size: 2rem !important;
+		font-size: 1.8rem !important;
 		margin: 0 0 20px;
 	}
 
@@ -130,7 +129,6 @@ $xs: 425px;
 	text-transform: capitalize !important;
 	color: $secondary--dark;
 	font-family: $brand-primary-font;
-	line-height: 1;
 }
 
 [class*="page-"] h2:before {
@@ -139,7 +137,7 @@ $xs: 425px;
 	content: '';
 	width: 100px;
 	height: 2px;
-	bottom: -15px;
+	bottom: -10px;
 	left: 0;
 
 }
@@ -175,7 +173,7 @@ em {
 }
 
 p {
-	line-height: 2;
+	line-height: 1.5;
 	font-size: 18px !important;
 }
 
@@ -190,4 +188,5 @@ body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_con
 h1,
 h2 {
 	font-family: $brand-primary-font;
+	margin: 0 0 40px;
 }
