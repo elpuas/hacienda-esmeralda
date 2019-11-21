@@ -82,7 +82,7 @@ add_action( 'login_enqueue_scripts', 'hs_login_stylesheet' );
  */
 function remove_admin_menu_links() {
 	$user = wp_get_current_user();
-	if ( $user && isset( $user->user_email ) && 'elpuas@gmail.com' !== $user->user_email ) {
+	if ( $user && isset( $user->user_email ) && 'elpuas@gmail.com' && 'gian@gianko.com' !== $user->user_email ) {
 	remove_menu_page( 'tools.php' );
 	remove_menu_page( 'themes.php' );
 	remove_menu_page( 'options-general.php' );
