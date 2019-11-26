@@ -6,7 +6,7 @@ header {
 
 a span.shop:after {
 	font-family: 'ETmodules';
-	content: "\e013";
+	content: "\e015";
 	margin-left: 10px;
 	margin-top: -4px;
 	color: $primary-color;
@@ -121,7 +121,8 @@ header {
 	&.quadmenu-is-horizontal {
 		.quadmenu-navbar-nav {
 			position: relative !important;
-			> li {
+
+			>li {
 				vertical-align: initial !important;
 				padding-top: 25px !important;
 			}
@@ -130,24 +131,25 @@ header {
 }
 
 span.quadmenu-icon.dashicons.dashicons-admin-site.hover.t_1000:before {
-		content: '' !important;
+	content: '' !important;
 }
 
 li.h-esmeralda-logo {
-  background: url('http://haciendaesmeralda.test/wp-content/uploads/2019/11/logo-largo.png')!important;
-  width: 320px !important;
-  height: 50px !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center top !important;
+	background: url('http://haciendaesmeralda.test/wp-content/uploads/2019/11/logo-largo.png') !important;
+	width: 320px !important;
+	height: 50px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center top !important;
 }
 
 .et_header_style_split #et-top-navigation {
-    padding-top: 15px !important;
+	padding-top: 15px !important;
 }
 
-@media ( max-width: $sm ) {
-	et_header_style_split #main-header .container, 
+@media (max-width: $sm) {
+
+	et_header_style_split #main-header .container,
 	.et_header_style_split #main-header .logo_container {
 		text-align: left !important;
 	}
@@ -180,26 +182,27 @@ li.h-esmeralda-logo {
 }
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-post_type>a>.quadmenu-item-content>.quadmenu-text {
-    display: block;
-    text-align: center !important;
-    width: 100%;
+	display: block;
+	text-align: center !important;
+	width: 100%;
 }
 
-#quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover, #quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link.open {
-    background-color: transparent !important;
+#quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover,
+#quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link.open {
+	background-color: transparent !important;
 }
 
 div[id*="dropdown-"] ul {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 span.quadmenu-item-content {
-    text-align: center !important;
+	text-align: center !important;
 }
 
 #quadmenu.quadmenu-divi .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
-    border-color: #3b2315 !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 5px !important;
-    margin-top: 5px !important;
+	border-color: #3b2315 !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 5px !important;
+	margin-top: 5px !important;
 }
