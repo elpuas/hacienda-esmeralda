@@ -76,3 +76,21 @@ h4 {
 .page-collection-section-0 img {
 	width: 450px;
 }
+
+.page-collection-section-1 .et_pb_text_inner>h4 {
+	font-family: "Open Sans",
+		Arial,
+		sans-serif !important;
+	font-size: 22px;
+	margin: 0 0 10px 0;
+}
+
+.page-collection-section-1 .et_pb_text_inner>h4:before {
+	border-bottom: 3px solid #beac8c;
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 2px;
+	bottom: 60px;
+	left: 0;
+}

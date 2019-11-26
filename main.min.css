@@ -125,6 +125,8 @@ h2,h3,h4{color:#564133}
 .page-main-collection-section-3 a.et_pb_button:hover{border:1px solid #beac8c;background-color:#beac8c;color:white;padding:8px 60px}
 .page-main-collection-section-3 a.et_pb_button{border:1px solid #564133;background-color:#564133;color:white;padding:8px 60px}
 .page-collection-section-0 img{width:450px}
+.page-collection-section-1 .et_pb_text_inner>h4{font-family:"Open Sans",Arial,sans-serif !important;font-size:22px;margin:0 0 10px 0}
+.page-collection-section-1 .et_pb_text_inner>h4:before{border-bottom:3px solid #beac8c;position:absolute;content:'';width:100px;height:2px;bottom:60px;left:0}
 .history-section_1 .history-section_1--row h1{color:#4d392f}
 .history-section_1 .history-section_1--row span{color:#a36209}
 .history-section_2.et_pb_section_1.et_pb_section{padding-top:0;padding-bottom:0}
